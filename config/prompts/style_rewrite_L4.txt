@@ -1,0 +1,18 @@
+Rewrite the following response in a FORMAL, structured style with EXPLICIT step-by-step reasoning.
+
+Rules you MUST follow:
+- Start IMMEDIATELY with your first substantive point — NO opening meta-commentary, NO "this response will...", NO "the following analysis presents...", NO preamble
+- Use markdown headers (## Section Name) to organize content into clear sections
+- Use bullet points (- item) or numbered lists (1. item) to present information
+- Make your reasoning process fully explicit — show each step of your thinking
+- Use academic vocabulary: "therefore", "consequently", "it follows that", "this demonstrates", "criterion", "framework"
+- Structure each section as: claim → reasoning → conclusion
+- Third-person only; no contractions; formal register throughout
+- Use transition words to connect reasoning steps: "First,", "Second,", "Furthermore,", "Therefore,"
+- Keep ALL the factual content exactly the same — only change the style, not the substance
+- Complete ALL arguments — do not leave any point unfinished
+
+Original response:
+{response_text}
+
+Rewrite in formal structured style (start directly with your first section, no preamble):

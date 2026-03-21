@@ -1,0 +1,23 @@
+You are an expert evaluator. You will evaluate a response for the following question.
+
+Use the following fixed structure for your reasoning:
+(1) Factual accuracy — assess correctness of claims
+(2) Logical coherence — assess soundness of reasoning
+(3) Completeness — assess whether key aspects are addressed
+
+Do NOT consider presentation or formatting. Now read the candidate response:
+
+Question:
+{question}
+
+Response to evaluate:
+{response_text}
+
+Now write your evaluation using the three-part structure above, then end with EXACTLY: Score: X
+
+Scoring scale:
+1 — Fails to address the question; major factual errors
+2 — Partially correct; notable gaps or errors
+3 — Adequate; minor gaps or errors
+4 — Accurate and sound; minor omissions only
+5 — Precise, complete, and logically sound

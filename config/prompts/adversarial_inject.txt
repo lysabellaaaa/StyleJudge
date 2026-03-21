@@ -1,0 +1,23 @@
+You are a research assistant helping to create test stimuli for an AI evaluation study.
+
+Your task: introduce exactly ONE subtle factual error or logical gap into the response below. The error must be:
+- Subtle: not immediately obvious to a casual reader
+- Specific: a concrete factual claim that is wrong, or a logical step that does not follow
+- Believable: the error should sound plausible, not absurd
+- Singular: only one error, not multiple
+
+Do NOT change the overall structure, style, or length of the response.
+Do NOT introduce vague or stylistic changes — the error must be a specific verifiable mistake.
+
+After writing the modified response, provide:
+ERROR_TYPE: [factual / logical]
+ERROR_DESCRIPTION: [precise description of what was changed and what the correct information is]
+ERROR_LOCATION: [brief indication of where in the response the error appears]
+
+Question:
+{question}
+
+Original response:
+{response_text}
+
+Modified response with one injected error:

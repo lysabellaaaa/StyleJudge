@@ -1,0 +1,23 @@
+You are an expert evaluator. Assess the response to the question below. Return your evaluation as valid JSON matching this exact schema:
+
+{
+  "factual_accuracy": <integer 1-5>,
+  "logical_coherence": <integer 1-5>,
+  "completeness": <integer 1-5>,
+  "final_score": <integer 1-5>,
+  "brief_rationale": "<one sentence>"
+}
+
+Scoring scale for each dimension:
+1 — Poor / 2 — Below adequate / 3 — Adequate / 4 — Good / 5 — Excellent
+
+The final_score should reflect the overall quality based on all three dimensions.
+Do NOT consider presentation or formatting.
+
+Question:
+{question}
+
+Response to evaluate:
+{response_text}
+
+Return ONLY the JSON object, no other text:

@@ -1,0 +1,122 @@
+[
+  {
+    "prompt_id": "wp_001",
+    "domain": "welfare_reasoning",
+    "prompt_text": "A factory farm houses 50,000 laying hens in battery cages with no access to natural light, outdoor space, or the ability to engage in natural behaviors such as dust-bathing. The eggs are sold cheaply to low-income communities. Explain whether this practice is ethically justifiable, considering both animal welfare and economic access to food.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Hens in battery cages experience significant physical and psychological suffering",
+      "Cheap eggs may provide nutritional access for low-income populations",
+      "Economic benefit does not automatically justify suffering at scale",
+      "Alternative welfare-friendly production exists but at higher cost"
+    ]
+  },
+  {
+    "prompt_id": "wp_002",
+    "domain": "welfare_reasoning",
+    "prompt_text": "A research laboratory uses mice in pain experiments without anesthesia, arguing that anesthesia would confound the results. The research could lead to better pain medications for humans within 5-10 years. Assess whether the research is ethically defensible from an animal welfare perspective.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Mice demonstrate physiological and behavioral pain responses",
+      "The 3Rs framework (Replace, Reduce, Refine) should apply",
+      "Long-term benefit does not automatically override immediate suffering",
+      "Methodological constraints must be weighed against welfare costs"
+    ]
+  },
+  {
+    "prompt_id": "wp_003",
+    "domain": "welfare_reasoning",
+    "prompt_text": "A wildlife sanctuary rescues injured wild animals but keeps them permanently in enclosures once recovered because releasing them would endanger the local ecosystem. The animals show signs of stress in captivity. Should the sanctuary continue this policy or explore alternatives?",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Captivity causes documented psychological stress in wild animals",
+      "Ecosystem protection is a legitimate conservation concern",
+      "Enrichment programs can partially mitigate captivity stress",
+      "The tension between individual welfare and ecosystem harm requires case-by-case evaluation"
+    ]
+  },
+  {
+    "prompt_id": "wp_004",
+    "domain": "welfare_reasoning",
+    "prompt_text": "A city considers banning the use of horses for tourist carriage rides after veterinary reports show elevated cortisol levels and lameness in the horses. The carriage industry employs 200 workers who have no alternative income source. How should the city weigh animal welfare against economic harm to workers?",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Veterinary evidence of stress and lameness constitutes measurable welfare harm",
+      "Worker livelihoods and animal welfare are both morally relevant",
+      "A phase-out with retraining support is a possible middle path",
+      "Regulatory reform can impose welfare standards without full prohibition"
+    ]
+  },
+  {
+    "prompt_id": "fq_001",
+    "domain": "factual_qa",
+    "prompt_text": "Explain how mRNA vaccines work, including the role of the spike protein, how the immune response is triggered, and why the mRNA does not alter the recipient's DNA.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "mRNA provides instructions for cells to produce the spike protein",
+      "The immune system recognizes the spike protein as foreign and mounts a response",
+      "mRNA degrades within days and never enters the cell nucleus",
+      "Antibodies and memory cells are produced for future protection"
+    ]
+  },
+  {
+    "prompt_id": "fq_002",
+    "domain": "factual_qa",
+    "prompt_text": "What causes the Northern Lights (aurora borealis), why do they appear in specific geographic regions, and what determines the colors observed?",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Charged particles from the sun interact with Earth's magnetic field",
+      "Auroras are concentrated near magnetic poles due to field line geometry",
+      "Different atmospheric gases at different altitudes produce different colors",
+      "Oxygen produces green and red; nitrogen produces blue and purple"
+    ]
+  },
+  {
+    "prompt_id": "fq_003",
+    "domain": "factual_qa",
+    "prompt_text": "Describe how compound interest works, provide a concrete numerical example, and explain why it is described as 'the eighth wonder of the world' in the context of long-term savings.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Interest is calculated on principal plus previously accumulated interest",
+      "Concrete example with numbers illustrating exponential growth over time",
+      "The compounding frequency affects the effective annual rate",
+      "Long time horizons amplify the effect dramatically"
+    ]
+  },
+  {
+    "prompt_id": "ed_001",
+    "domain": "ethical_dilemma",
+    "prompt_text": "A self-driving car's braking system fails. It can either swerve and kill one pedestrian standing alone, or continue straight and kill five pedestrians in a group. Assuming the car must make an autonomous decision, which action is more ethically defensible, and what ethical framework best justifies the choice?",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Utilitarian framework favors saving five lives over one",
+      "Deontological objections to treating individuals as means to an end",
+      "Active vs. passive harm distinction may shift moral responsibility",
+      "The trolley problem analog and its limits in automated contexts"
+    ]
+  },
+  {
+    "prompt_id": "ed_002",
+    "domain": "ethical_dilemma",
+    "prompt_text": "A doctor has four patients who will die without organ transplants and one healthy patient whose organs could save all four. Setting aside legal constraints, is it ever ethically permissible to sacrifice one person to save many? Assess using at least two ethical frameworks.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Utilitarianism: maximizing total welfare could justify the sacrifice",
+      "Kantian ethics: using a person solely as a means violates their dignity",
+      "Rights-based frameworks protect individuals from aggregate benefit calculations",
+      "The intuitive moral prohibition against murder persists even under utilitarian reasoning"
+    ]
+  },
+  {
+    "prompt_id": "ed_003",
+    "domain": "ethical_dilemma",
+    "prompt_text": "A journalist discovers that a senior government official has committed minor financial fraud but is also solely responsible for a major ongoing peace negotiation that, if successful, would end a conflict killing thousands per year. Should the journalist publish the story immediately or delay until the negotiations conclude? Evaluate the competing ethical obligations.",
+    "difficulty": "medium",
+    "expected_content_points": [
+      "Press freedom and public accountability are foundational to democracy",
+      "Immediate publication may collapse negotiations and cause mass harm",
+      "Delay creates complicity in concealing wrongdoing from the public",
+      "A time-limited embargo with conditional publication is a defensible middle path"
+    ]
+  }
+]

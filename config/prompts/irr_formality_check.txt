@@ -1,0 +1,11 @@
+Classify the following text as either casual or structured.
+
+2 = Casual: plain prose, conversational tone, no bullet points, no markdown headers, no numbered lists, may use first-person or contractions
+4 = Structured: uses markdown headers (##), bullet points (-), or numbered lists (1.), with formal academic language and explicit step-by-step reasoning
+
+Reply with ONLY the digit 2 or 4. No explanation.
+
+Text to classify:
+{response_text}
+
+Classification (2 or 4):

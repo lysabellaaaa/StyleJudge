@@ -1,0 +1,134 @@
+# StyleJudge Pilot Experiment Configuration
+# Single source of truth for all experiment parameters.
+# All agents must read from here — no hardcoded values in source files.
+
+experiment:
+  name: "StyleJudge Pilot v1"
+  version: "1.0.0"
+  osf_preregistration_url: null  # REQUIRED before evaluation phase
+
+# --- Dataset ---
+dataset:
+  n_base_prompts: 10
+  domain_distribution:
+    welfare_reasoning: 4
+    factual_qa: 3
+    ethical_dilemma: 3
+  formality_levels: ["L2", "L4"]
+  n_adversarial: 6
+  length_normalization_tolerance: 0.30  # ±30% of L2 baseline token count — allows L4 to be longer without truncation
+  length_normalization_max_iterations: 3
+
+# --- Models ---
+models:
+  base_generator: "claude-sonnet-4-6"
+  style_rewriter: "claude-sonnet-4-6"
+  qa_verifier: "gpt-4o"
+  irr_classifier: "gpt-4o"
+  adversarial_injector: "claude-sonnet-4-6"
+  judges:
+    gpt4o: "gpt-4o"
+    llama70b: "llama-3.3-70b-versatile"
+    glm5: "research-model"
+
+# --- Temperature ---
+temperature:
+  generation: 0.0
+  rewriting: 0.3
+  evaluation: 0.0
+  qa_verification: 0.0
+  irr: 0.0
+
+# --- Token Limits ---
+max_tokens:
+  judge_cot: 2048
+  style_rewrite: 2048
+  base_generation: 2048
+  qa_verification: 1024
+  irr_classification: 256
+  adversarial_injection: 2048
+  mechanistic_extraction: 1024
+
+# --- Evaluation ---
+evaluation:
+  scoring_scale: [1, 2, 3, 4, 5]
+  runs_per_instance: 1  # temp=0 is deterministic; single authoritative run
+  max_workers:
+    gpt4o: 5
+    llama70b: 5
+    glm5: 2
+
+# --- Rate Limits (conservative) ---
+rate_limits:
+  anthropic:
+    requests_per_minute: 50
+    tokens_per_minute: 40000
+  openai:
+    requests_per_minute: 60
+    tokens_per_minute: 60000
+  groq:
+    requests_per_minute: 30
+    tokens_per_minute: 6000
+  zhipu:
+    requests_per_minute: 30
+    tokens_per_minute: 20000
+
+# --- Retry ---
+retry:
+  max_retries: 3
+  base_delay_seconds: 2.0
+  max_consecutive_429_before_pause: 3
+  pause_duration_seconds: 60
+
+# --- Quality Gates ---
+quality_gates:
+  irr_kappa_threshold: 0.75
+  qa_flagged_action: "human_review"  # "block" or "human_review"
+
+# --- Analysis ---
+analysis:
+  bootstrap_resamples: 1000
+  effect_size_method: "cohens_d"
+  penalty_threshold: 2  # score ≤ this = penalized (for FPR)
+  mechanistic_logprob_tokens: 20  # first N tokens of CoT to analyze
+  structure_token_set: ["First", "1.", "##", "Criterion", "Aspect"]
+
+# --- Paths ---
+paths:
+  base_prompts: "data/raw/base_prompts.json"
+  base_responses: "data/dataset/base_responses.json"
+  style_variants: "data/dataset/style_variants.json"
+  style_variants_normalized: "data/dataset/style_variants_length_normalized.json"
+  irr_results: "data/dataset/irr_results.json"
+  formality_perception: "data/dataset/formality_perception_results.json"
+  adversarial: "data/dataset/adversarial.json"
+  qa_verified: "data/dataset/qa_verified.json"
+  evaluation_instances: "data/processed/evaluation_instances.json"
+  state: "state/experiment_state.json"
+  results_evaluations: "results/evaluations"
+  results_mitigation: "results/mitigation"
+  results_mechanistic: "results/mechanistic"
+  results_analysis: "results/analysis"
+
+# --- Prompts ---
+prompts:
+  base_generation: "config/prompts/base_generation.txt"
+  style_rewrite:
+    L1: "config/prompts/style_rewrite_L1.txt"
+    L2: "config/prompts/style_rewrite_L2.txt"
+    L3: "config/prompts/style_rewrite_L3.txt"
+    L4: "config/prompts/style_rewrite_L4.txt"
+  adversarial_inject: "config/prompts/adversarial_inject.txt"
+  qa_verifier: "config/prompts/qa_verifier.txt"
+  irr_formality_check: "config/prompts/irr_formality_check.txt"
+  formality_perception: "config/prompts/formality_perception.txt"
+  judge_pointwise: "config/prompts/judge_pointwise.txt"
+  judge_fixed_rubric: "config/prompts/judge_fixed_rubric.txt"
+  judge_style_agnostic: "config/prompts/judge_style_agnostic.txt"
+  judge_position_A: "config/prompts/judge_position_A.txt"
+  judge_position_B: "config/prompts/judge_position_B.txt"
+  judge_position_C: "config/prompts/judge_position_C.txt"
+  judge_buffer_B: "config/prompts/judge_buffer_B.txt"
+  judge_buffer_C: "config/prompts/judge_buffer_C.txt"
+  judge_two_pass_extract: "config/prompts/judge_two_pass_extract.txt"
+  judge_structured_output: "config/prompts/judge_structured_output.txt"

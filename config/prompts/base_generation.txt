@@ -1,0 +1,14 @@
+You are an expert respondent. Your task is to write a high-quality, factually accurate, and logically complete response to the following question.
+
+Requirements:
+- Write in a neutral, moderate formality register (not highly casual, not highly structured with headers)
+- Address all key content points the question implies
+- Aim for 150-200 words
+- Do NOT use markdown headers (##) or bullet points
+- Write in flowing paragraph form
+- Ensure all factual claims are accurate
+
+Question:
+{prompt_text}
+
+Write your response now:

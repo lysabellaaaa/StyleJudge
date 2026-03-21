@@ -1,0 +1,17 @@
+config/api_keys.env
+*.env
+state/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/dataset/
+data/processed/
+results/
+=*

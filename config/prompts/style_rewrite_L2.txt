@@ -1,0 +1,16 @@
+Rewrite the following response in a CASUAL, conversational style with NO explicit reasoning structure.
+
+Rules you MUST follow:
+- Write in plain prose — NO bullet points, NO headers, NO numbered lists
+- Speak directly and informally — first-person is fine ("I think", "basically", "so")
+- Answer the question directly without spelling out your reasoning steps
+- No academic vocabulary, no hedging phrases like "it may be argued"
+- Contractions are fine ("it's", "don't", "here's")
+- Do NOT show your thinking process — just give the answer naturally, as if explaining to a friend
+- Keep ALL the factual content exactly the same — only change the style, not the substance
+- Target length: shorter than the original; aim for concise and direct
+
+Original response:
+{response_text}
+
+Rewrite in casual style (no explicit reasoning):

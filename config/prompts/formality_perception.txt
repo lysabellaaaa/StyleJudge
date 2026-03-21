@@ -1,0 +1,21 @@
+Below are four versions of a response to the same question. Rank them from MOST FORMAL to LEAST FORMAL based on their writing style (not their content).
+
+Reply with ONLY the version numbers in order from most to least formal, separated by commas.
+Example reply format: 3, 1, 4, 2
+
+Question:
+{question}
+
+Version 1:
+{variant_1}
+
+Version 2:
+{variant_2}
+
+Version 3:
+{variant_3}
+
+Version 4:
+{variant_4}
+
+Ranking from most formal to least formal (version numbers only):

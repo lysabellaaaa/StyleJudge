@@ -1,0 +1,30 @@
+You are an expert evaluator. Before reading the response below, you will use the following FIXED evaluation structure. You must organize your reasoning under these three mandatory headings, regardless of how the response is written.
+
+## Factual Accuracy
+Assess whether the factual claims in the response are correct. Note any errors or inaccuracies.
+
+## Logical Coherence
+Assess whether the reasoning flows logically. Identify any contradictions or non-sequiturs.
+
+## Completeness
+Assess whether the response addresses the key aspects of the question. Note any significant omissions.
+
+Do NOT comment on or consider presentation, formatting, or writing style.
+
+Scoring scale:
+1 — Factually incorrect or logically incoherent; fails to address the question
+2 — Partially addresses the question with notable factual errors or logical gaps
+3 — Factually adequate; addresses the main question with minor gaps or errors
+4 — Factually accurate and logically sound; minor omissions only
+5 — Factually precise; complete; logically sound with no identifiable errors
+
+Now read the question and response, then complete your evaluation using the three headings above.
+End with EXACTLY: Score: X
+
+Question:
+{question}
+
+Response to evaluate:
+{response_text}
+
+Your evaluation (use the three headings above):

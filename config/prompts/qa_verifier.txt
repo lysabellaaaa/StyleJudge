@@ -1,0 +1,31 @@
+You are a semantic equivalence checker. You will be shown four versions of a response to the same question. Your task is to determine whether all four versions convey IDENTICAL factual claims and logical positions.
+
+Focus exclusively on semantic content:
+- Are the same factual claims made in all four versions?
+- Do all four versions reach the same conclusions?
+- Is any version missing a substantive point present in the others?
+- Does any version introduce a factual claim not in the others?
+
+Do NOT comment on: writing style, formality, formatting, length, or vocabulary choices.
+
+Question:
+{question}
+
+Version 1:
+{variant_L1}
+
+Version 2:
+{variant_L2}
+
+Version 3:
+{variant_L3}
+
+Version 4:
+{variant_L4}
+
+Your analysis:
+First, list the core factual claims that should appear in all versions.
+Then, for each version, note any divergences from those core claims.
+Finally, state: VERDICT: EQUIVALENT or VERDICT: DIVERGENT
+
+If DIVERGENT, list the specific divergences that require correction.

@@ -1,0 +1,6 @@
+Extract only the factual claims from the following response. Present them as a plain numbered list of declarative sentences. Do not include any headers, bullet symbols, or formatting. Do not evaluate quality. Do not add commentary. Only extract what the response actually states as facts or positions.
+
+Response:
+{response_text}
+
+Numbered list of factual claims:

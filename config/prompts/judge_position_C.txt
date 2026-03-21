@@ -1,0 +1,21 @@
+Response to evaluate:
+{response_text}
+
+---
+
+You are an expert evaluator. Assess the quality of the response above for the following question.
+
+Evaluate ONLY: factual accuracy, logical coherence, and completeness of content.
+Do NOT consider presentation or formatting.
+
+Question:
+{question}
+
+Scoring scale:
+1 — Fails to address the question; major factual errors
+2 — Partially correct; notable gaps or errors
+3 — Adequate; minor gaps or errors
+4 — Accurate and sound; minor omissions only
+5 — Precise, complete, and logically sound
+
+Write your evaluation reasoning, then end with EXACTLY: Score: X

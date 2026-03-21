@@ -1,0 +1,15 @@
+Rewrite the following response in a SEMI-FORMAL, structured prose style (Level 3 formality).
+
+Rules you MUST follow:
+- Paragraph prose only — NO markdown headers (##), NO bullet points (-), NO numbered lists
+- Formal vocabulary; no contractions
+- Hedging required: "one consideration is", "it may be argued", "it is worth noting", "this suggests"
+- Bold or colon-based emphasis is acceptable: "Key consideration: ..." or "**Important:**"
+- Use formal transition words: "however", "furthermore", "nevertheless", "consequently"
+- Keep ALL the factual content exactly the same — only change the style, not the substance
+- Target length: match the original word count as closely as possible
+
+Original response:
+{response_text}
+
+Rewrite in L3 semi-formal style:

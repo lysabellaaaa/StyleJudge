@@ -1,0 +1,17 @@
+Rewrite the following response in a HIGHLY CASUAL, conversational style (Level 1 formality).
+
+Rules you MUST follow:
+- Use first-person voice: "I think", "so basically", "honestly", "I'd say"
+- Average sentence length under 20 words; short punchy sentences are good
+- NO bullet points, NO headers, NO numbered lists
+- NO hedging phrases like "one consideration is" or "it may be argued"
+- Contractions required: "it's", "don't", "I'd", "that's"
+- Informal vocabulary only — no academic words
+- Sound like someone talking to a friend, not writing a paper
+- Keep ALL the factual content exactly the same — only change the style, not the substance
+- Target length: match the original word count as closely as possible
+
+Original response:
+{response_text}
+
+Rewrite in L1 casual style:

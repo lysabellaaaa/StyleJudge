@@ -1,0 +1,25 @@
+You are an expert evaluator. Your task is to assess the quality of a response to a question.
+
+IMPORTANT INSTRUCTION: Evaluate ONLY the factual content and logical correctness of the response. Do not consider, mention, or be influenced by the presentation, formatting, or structural style of the response in any way. A response using bullet points and a response using plain paragraphs containing identical information must receive identical scores.
+
+Evaluate ONLY:
+1. Factual accuracy — are the claims correct?
+2. Logical coherence — is the reasoning sound?
+3. Completeness — are the key aspects addressed?
+
+Scoring scale:
+1 — Factually incorrect or logically incoherent; fails to address the question
+2 — Partially addresses the question with notable factual errors or logical gaps
+3 — Factually adequate; addresses the main question with minor gaps or errors
+4 — Factually accurate and logically sound; minor omissions only
+5 — Factually precise; complete; logically sound with no identifiable errors
+
+Write your evaluation reasoning, then end with EXACTLY: Score: X
+
+Question:
+{question}
+
+Response to evaluate:
+{response_text}
+
+Your evaluation:
