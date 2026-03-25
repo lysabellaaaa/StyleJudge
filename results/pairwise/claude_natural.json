@@ -1,0 +1,1674 @@
+[
+  {
+    "question_id": "fq_001",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B includes additional accurate content about byproduct management (ash, sulfur dioxide removal, particulate matter) and transformer voltage stepping, making it more complete in addressing the full design scope of coal plants.",
+    "a_strengths": "Response A provides a clear, well-organized breakdown of each conversion stage with thorough explanation of the underlying mechanisms, making the reasoning easy to follow step by step.",
+    "b_strengths": "Response B covers the same core conversion chain accurately while also addressing byproduct management systems and environmental considerations, giving a more complete picture of what coal plants are designed to handle beyond just energy conversion.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B includes additional accurate content about byproduct management (ash, sulfur dioxide removal, particulate matter) and transformer voltage stepping, making it more complete in addressing the full design scope of coal plants.\",\n  \"a_strengths\": \"Response A provides a clear, well-organized breakdown of each conversion stage with thorough explanation of the underlying mechanisms, making the reasoning easy to follow step by step.\",\n  \"b_strengths\": \"Response B covers the same core conversion chain accurately while also addressing byproduct management systems and environmental considerations, giving a more complete picture of what coal plants are designed to handle beyond just energy conversion.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:11Z"
+  },
+  {
+    "question_id": "fq_004",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B explicitly evaluates all candidate units (gene, individual, population, species) and explains why each is or isn't the direct target of selection, making the reasoning more complete and comparative.",
+    "a_strengths": "Response A provides a clear, concise, and accurate explanation of why the individual is the unit of selection, with good emphasis on the phenotype-environment interaction and the distinction between what selection 'sees' versus gene frequencies.",
+    "b_strengths": "Response B systematically considers and eliminates alternative units, providing a more thorough comparative analysis that directly addresses the implicit multiple-choice nature of the question, making the conclusion better supported through elimination reasoning.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B explicitly evaluates all candidate units (gene, individual, population, species) and explains why each is or isn't the direct target of selection, making the reasoning more complete and comparative.\",\n  \"a_strengths\": \"Response A provides a clear, concise, and accurate explanation of why the individual is the unit of selection, with good emphasis on the phenotype-environment interaction and the distinction between what selection 'sees' versus gene frequencies.\",\n  \"b_strengths\": \"Response B systematically considers and eliminates alternative units, providing a more thorough comparative analysis that directly addresses the implicit multiple-choice nature of the question, making the conclusion better supported through elimination reasoning.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:12Z"
+  },
+  {
+    "question_id": "fq_005",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more specific factual detail, including naming Mesosaurus as a concrete fossil example and explicitly distinguishing between Gondwana and the broader plate-tectonic mechanisms, giving it a slight edge in accuracy and completeness.",
+    "a_strengths": "Response A names specific evidence (Mesosaurus, Permian-age rocks, Wegener's 1912 hypothesis), explains the geological mechanisms of rifting and seafloor spreading, and addresses the rock-layer correlation more thoroughly, making its reasoning more grounded and complete.",
+    "b_strengths": "Response B is concise and accurate, correctly mentions both Gondwana and Pangaea, and covers the essential logical chain clearly without sacrificing correctness; it also notes the matching geological structures and rock types as corroborating evidence.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more specific factual detail, including naming Mesosaurus as a concrete fossil example and explicitly distinguishing between Gondwana and the broader plate-tectonic mechanisms, giving it a slight edge in accuracy and completeness.\",\n  \"a_strengths\": \"Response A names specific evidence (Mesosaurus, Permian-age rocks, Wegener's 1912 hypothesis), explains the geological mechanisms of rifting and seafloor spreading, and addresses the rock-layer correlation more thoroughly, making its reasoning more grounded and complete.\",\n  \"b_strengths\": \"Response B is concise and accurate, correctly mentions both Gondwana and Pangaea, and covers the essential logical chain clearly without sacrificing correctness; it also notes the matching geological structures and rock types as corroborating evidence.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:12Z"
+  },
+  {
+    "question_id": "fq_003",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A uses water potential terminology more precisely and correctly frames the condition as the potato being in a hypotonic environment, while Response B's claim that 'cells may burst' is inaccurate for plant cells which have rigid cell walls preventing bursting under normal osmotic conditions.",
+    "a_strengths": "Response A correctly uses water potential concepts (mentioning MPa and the gradient driving osmosis), accurately notes that cell walls limit swelling via turgor pressure, and avoids the inaccurate claim about cells bursting.",
+    "b_strengths": "Response B is clearly written and correctly identifies the hypertonic nature of the potato cells relative to pure water, explains solute concentration differences accessibly, and provides a useful contrast with salty solution scenarios.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A uses water potential terminology more precisely and correctly frames the condition as the potato being in a hypotonic environment, while Response B's claim that 'cells may burst' is inaccurate for plant cells which have rigid cell walls preventing bursting under normal osmotic conditions.\",\n  \"a_strengths\": \"Response A correctly uses water potential concepts (mentioning MPa and the gradient driving osmosis), accurately notes that cell walls limit swelling via turgor pressure, and avoids the inaccurate claim about cells bursting.\",\n  \"b_strengths\": \"Response B is clearly written and correctly identifies the hypertonic nature of the potato cells relative to pure water, explains solute concentration differences accessibly, and provides a useful contrast with salty solution scenarios.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:13Z"
+  },
+  {
+    "question_id": "fq_007",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides a more systematic and complete logical analysis, explicitly assigning propositional variables and walking through each step of the reasoning more thoroughly.",
+    "a_strengths": "Response A is concise and accurate, correctly identifying the antecedent and explaining the 'only if' equivalence clearly in a readable paragraph form.",
+    "b_strengths": "Response B offers a more complete treatment by explicitly defining propositional variables, stating the logical equivalence principle before applying it, and addressing potential confusion about the disjunctive consequent, making the reasoning more rigorous and easier to follow step by step.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides a more systematic and complete logical analysis, explicitly assigning propositional variables and walking through each step of the reasoning more thoroughly.\",\n  \"a_strengths\": \"Response A is concise and accurate, correctly identifying the antecedent and explaining the 'only if' equivalence clearly in a readable paragraph form.\",\n  \"b_strengths\": \"Response B offers a more complete treatment by explicitly defining propositional variables, stating the logical equivalence principle before applying it, and addressing potential confusion about the disjunctive consequent, making the reasoning more rigorous and easier to follow step by step.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:16Z"
+  },
+  {
+    "question_id": "fq_009",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more detailed and complete coverage of each similarity, with fuller explanations of the underlying physics for each point, making the reasoning more thoroughly supported.",
+    "a_strengths": "Response A elaborates more deeply on each similarity, explaining the mechanisms behind energy transfer, the specific wave properties, and the behaviors like reflection, refraction, diffraction, and interference with greater detail and supporting reasoning for each claim.",
+    "b_strengths": "Response B is more concise and accurately notes the nuance that ocean waves involve circular orbital motion of water particles rather than purely transverse motion, and it correctly distinguishes that ocean waves are gravity-driven surface disturbances, showing slightly more physical precision in some descriptions.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more detailed and complete coverage of each similarity, with fuller explanations of the underlying physics for each point, making the reasoning more thoroughly supported.\",\n  \"a_strengths\": \"Response A elaborates more deeply on each similarity, explaining the mechanisms behind energy transfer, the specific wave properties, and the behaviors like reflection, refraction, diffraction, and interference with greater detail and supporting reasoning for each claim.\",\n  \"b_strengths\": \"Response B is more concise and accurately notes the nuance that ocean waves involve circular orbital motion of water particles rather than purely transverse motion, and it correctly distinguishes that ocean waves are gravity-driven surface disturbances, showing slightly more physical precision in some descriptions.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:17Z"
+  },
+  {
+    "question_id": "fq_010",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete and precise explanations, including the concept of pedogenesis, the distinction between intermediate and climax communities, and the note about regional climate influencing forest type, making it factually richer.",
+    "a_strengths": "Response A introduces pedogenesis as a key mechanism, explicitly distinguishes pioneer, intermediate, and climax stages, mentions that forest type depends on regional climate, and provides more precise ecological terminology throughout.",
+    "b_strengths": "Response B is concise and clear, covering the essential process of primary succession accurately and in an accessible way, with no significant factual errors.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete and precise explanations, including the concept of pedogenesis, the distinction between intermediate and climax communities, and the note about regional climate influencing forest type, making it factually richer.\",\n  \"a_strengths\": \"Response A introduces pedogenesis as a key mechanism, explicitly distinguishes pioneer, intermediate, and climax stages, mentions that forest type depends on regional climate, and provides more precise ecological terminology throughout.\",\n  \"b_strengths\": \"Response B is concise and clear, covering the essential process of primary succession accurately and in an accessible way, with no significant factual errors.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:17Z"
+  },
+  {
+    "question_id": "fq_008",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers additional accurate factors such as CO2 depletion within sealed air space, metabolic toxin accumulation, root-binding, and demographic/genetic stochasticity that Response A omits, making it more complete and factually thorough.",
+    "a_strengths": "Response A provides a clear, well-integrated narrative that connects all factors cohesively, and its explanation of the water cycle and light variables is accessible and accurate.",
+    "b_strengths": "Response B introduces more specific and accurate details—such as CO2 limitation inhibiting photosynthesis, metabolic toxin buildup, the absence of atmospheric deposition and rock weathering as nutrient inputs, root-binding as a plant failure mode, and explicit mention of demographic stochasticity—resulting in greater factual completeness and analytical depth.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers additional accurate factors such as CO2 depletion within sealed air space, metabolic toxin accumulation, root-binding, and demographic/genetic stochasticity that Response A omits, making it more complete and factually thorough.\",\n  \"a_strengths\": \"Response A provides a clear, well-integrated narrative that connects all factors cohesively, and its explanation of the water cycle and light variables is accessible and accurate.\",\n  \"b_strengths\": \"Response B introduces more specific and accurate details—such as CO2 limitation inhibiting photosynthesis, metabolic toxin buildup, the absence of atmospheric deposition and rock weathering as nutrient inputs, root-binding as a plant failure mode, and explicit mention of demographic stochasticity—resulting in greater factual completeness and analytical depth.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:17Z"
+  },
+  {
+    "question_id": "fq_012",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete reasoning by explicitly ruling out alternative explanations (codominance, complete dominance, epistasis), making the argument for incomplete dominance more thorough and analytically rigorous.",
+    "a_strengths": "Response A is concise, accurate, and clearly explains the core logic of incomplete dominance with a direct comparison to complete dominance, making it easy to follow.",
+    "b_strengths": "Response B explicitly addresses and eliminates alternative genetic phenomena (codominance, complete dominance, epistasis/multiple alleles), provides a more systematic genotypic breakdown with notation, and offers a more complete analytical treatment of the question.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete reasoning by explicitly ruling out alternative explanations (codominance, complete dominance, epistasis), making the argument for incomplete dominance more thorough and analytically rigorous.\",\n  \"a_strengths\": \"Response A is concise, accurate, and clearly explains the core logic of incomplete dominance with a direct comparison to complete dominance, making it easy to follow.\",\n  \"b_strengths\": \"Response B explicitly addresses and eliminates alternative genetic phenomena (codominance, complete dominance, epistasis/multiple alleles), provides a more systematic genotypic breakdown with notation, and offers a more complete analytical treatment of the question.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:20Z"
+  },
+  {
+    "question_id": "fq_011",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete historical context (Roosevelt Corollary, TR's presidency) and more thorough textual analysis with specific examples, making its reasoning more fully supported.",
+    "a_strengths": "Response A situates the poem in its precise historical moment (Roosevelt Corollary, U.S. interventionism), explicitly analyzes the binary opposition the poem constructs, and draws on a wider range of textual evidence to support its claims about theme.",
+    "b_strengths": "Response B is concise and accurate, capturing the essential theme clearly and efficiently without sacrificing logical coherence, and its closing analysis of the 'God' line is well-integrated into the overall argument.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete historical context (Roosevelt Corollary, TR's presidency) and more thorough textual analysis with specific examples, making its reasoning more fully supported.\",\n  \"a_strengths\": \"Response A situates the poem in its precise historical moment (Roosevelt Corollary, U.S. interventionism), explicitly analyzes the binary opposition the poem constructs, and draws on a wider range of textual evidence to support its claims about theme.\",\n  \"b_strengths\": \"Response B is concise and accurate, capturing the essential theme clearly and efficiently without sacrificing logical coherence, and its closing analysis of the 'God' line is well-integrated into the overall argument.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:21Z"
+  },
+  {
+    "question_id": "fq_014",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete historical coverage, including post-Opium War developments and a more thorough analysis of the tributary system's role in restricting trade.",
+    "a_strengths": "Response A covers a broader chronological range (including post-Opium War treaty port developments), explicitly connects the tributary framework to trade restrictions with greater analytical depth, and addresses the full 1750–1900 period more comprehensively.",
+    "b_strengths": "Response B is concise and accurate, clearly explains the Canton System and Cohong mechanics, and effectively connects the passage's philosophy to trade policy without unnecessary elaboration.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete historical coverage, including post-Opium War developments and a more thorough analysis of the tributary system's role in restricting trade.\",\n  \"a_strengths\": \"Response A covers a broader chronological range (including post-Opium War treaty port developments), explicitly connects the tributary framework to trade restrictions with greater analytical depth, and addresses the full 1750–1900 period more comprehensively.\",\n  \"b_strengths\": \"Response B is concise and accurate, clearly explains the Canton System and Cohong mechanics, and effectively connects the passage's philosophy to trade policy without unnecessary elaboration.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:22Z"
+  },
+  {
+    "question_id": "fq_013",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A is more complete, covering multiple indicators of complementarity including the foundational definition, quantitative measure, behavioral evidence, and price-demand interactions, while Response B focuses primarily on cross-price elasticity alone.",
+    "a_strengths": "Response A provides a more comprehensive treatment by addressing complementarity from multiple angles: the definitional inverse demand-price relationship, the quantitative cross-price elasticity measure with its formula, real-world behavioral and market observations, and demand curve analysis. It also gives multiple concrete examples across different domains.",
+    "b_strengths": "Response B is concise and accurate in its core explanation, clearly explains the cross-price elasticity concept and contrasts complements with substitutes, and includes a practical note about business applications. It is easier to read quickly and avoids any redundancy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A is more complete, covering multiple indicators of complementarity including the foundational definition, quantitative measure, behavioral evidence, and price-demand interactions, while Response B focuses primarily on cross-price elasticity alone.\",\n  \"a_strengths\": \"Response A provides a more comprehensive treatment by addressing complementarity from multiple angles: the definitional inverse demand-price relationship, the quantitative cross-price elasticity measure with its formula, real-world behavioral and market observations, and demand curve analysis. It also gives multiple concrete examples across different domains.\",\n  \"b_strengths\": \"Response B is concise and accurate in its core explanation, clearly explains the cross-price elasticity concept and contrasts complements with substitutes, and includes a practical note about business applications. It is easier to read quickly and avoids any redundancy.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:22Z"
+  },
+  {
+    "question_id": "fq_015",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B includes a critical point about water damaging fragile fossils through cracking and erosion, which is directly relevant to a paleontological dig and adds important accuracy that Response A omits.",
+    "a_strengths": "Response A provides more detail on the hydrological hazards of dry river beds (flash floods, erosion, sediment deposition) and includes practical safety measures like weather monitoring and evacuation planning.",
+    "b_strengths": "Response B addresses fossil preservation concerns (water cracking or eroding fossils, wet sediment obscuring bones) that are central to the paleontological context, and also notes that rain can expose new layers or alter the excavation plan, making it more complete and accurate for the specific scenario described.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B includes a critical point about water damaging fragile fossils through cracking and erosion, which is directly relevant to a paleontological dig and adds important accuracy that Response A omits.\",\n  \"a_strengths\": \"Response A provides more detail on the hydrological hazards of dry river beds (flash floods, erosion, sediment deposition) and includes practical safety measures like weather monitoring and evacuation planning.\",\n  \"b_strengths\": \"Response B addresses fossil preservation concerns (water cracking or eroding fossils, wet sediment obscuring bones) that are central to the paleontological context, and also notes that rain can expose new layers or alter the excavation plan, making it more complete and accurate for the specific scenario described.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:25Z"
+  },
+  {
+    "question_id": "fq_016",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A includes an additional important cause (placental aromatase deficiency) and provides more complete pathophysiological explanation including the role of AMH and the specific gestational window of androgen sensitivity.",
+    "a_strengths": "Response A covers placental aromatase deficiency as a distinct cause, specifies the critical gestational window (weeks 8-14), explains the AMH mechanism for preserved internal structures, and lists multiple enzyme deficiencies in CAH beyond just 21-hydroxylase.",
+    "b_strengths": "Response B is concise and accurate for the main causes, and adds useful clinical context about management (corticosteroid therapy, surgical correction) and differential diagnosis distinguishing from true hermaphroditism and male pseudohermaphroditism.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A includes an additional important cause (placental aromatase deficiency) and provides more complete pathophysiological explanation including the role of AMH and the specific gestational window of androgen sensitivity.\",\n  \"a_strengths\": \"Response A covers placental aromatase deficiency as a distinct cause, specifies the critical gestational window (weeks 8-14), explains the AMH mechanism for preserved internal structures, and lists multiple enzyme deficiencies in CAH beyond just 21-hydroxylase.\",\n  \"b_strengths\": \"Response B is concise and accurate for the main causes, and adds useful clinical context about management (corticosteroid therapy, surgical correction) and differential diagnosis distinguishing from true hermaphroditism and male pseudohermaphroditism.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:25Z"
+  },
+  {
+    "question_id": "fq_018",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete and precise factual content, including the specific pressure value, Kelvin equivalent, Gibbs free energy explanation, and quantified pressure effect on freezing point depression.",
+    "a_strengths": "Response A includes more precise scientific details such as the standard atmospheric pressure value (101.325 kPa), the Kelvin equivalent (273.15 K), the Gibbs free energy thermodynamic explanation, a quantified pressure effect (~−0.01°C per atmosphere), and an explanation of supercooling and nucleation effects.",
+    "b_strengths": "Response B is concise and readable, mentions the practical real-world application of road salting, and references the International Temperature Scale, which Response A omits. It covers the core concepts accurately in a more accessible way.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete and precise factual content, including the specific pressure value, Kelvin equivalent, Gibbs free energy explanation, and quantified pressure effect on freezing point depression.\",\n  \"a_strengths\": \"Response A includes more precise scientific details such as the standard atmospheric pressure value (101.325 kPa), the Kelvin equivalent (273.15 K), the Gibbs free energy thermodynamic explanation, a quantified pressure effect (~−0.01°C per atmosphere), and an explanation of supercooling and nucleation effects.\",\n  \"b_strengths\": \"Response B is concise and readable, mentions the practical real-world application of road salting, and references the International Temperature Scale, which Response A omits. It covers the core concepts accurately in a more accessible way.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:27Z"
+  },
+  {
+    "question_id": "fq_017",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A covers an additional distinct mechanism (frequency-dependent selection and low parasitism rates) that adds completeness and accuracy beyond what Response B offers.",
+    "a_strengths": "Response A addresses two separate evolutionary mechanisms—cost-benefit of resistance errors and frequency-dependent selection under low parasitism pressure—providing a more complete and nuanced explanation, including the specific point about egg-rejection errors when eggs are mimetic.",
+    "b_strengths": "Response B is concise and clearly articulates the core cost-benefit logic in an accessible way, correctly identifying that the instinct benefits own-offspring care and that resistance could cause costly errors, making it accurate and well-reasoned within a single framework.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A covers an additional distinct mechanism (frequency-dependent selection and low parasitism rates) that adds completeness and accuracy beyond what Response B offers.\",\n  \"a_strengths\": \"Response A addresses two separate evolutionary mechanisms—cost-benefit of resistance errors and frequency-dependent selection under low parasitism pressure—providing a more complete and nuanced explanation, including the specific point about egg-rejection errors when eggs are mimetic.\",\n  \"b_strengths\": \"Response B is concise and clearly articulates the core cost-benefit logic in an accessible way, correctly identifying that the instinct benefits own-offspring care and that resistance could cause costly errors, making it accurate and well-reasoned within a single framework.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:27Z"
+  },
+  {
+    "question_id": "fq_019",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete factual detail, including specific temperature ranges for each PCR step, the historical context of Mullis's invention, and more concrete examples across application domains.",
+    "a_strengths": "Response A includes specific technical details such as temperature ranges for denaturation, annealing, and extension, names Taq polymerase explicitly, credits Kary Mullis with the 1983 invention, and enumerates more specific applications including gene cloning and evolutionary studies.",
+    "b_strengths": "Response B offers a more concise and accessible explanation with a useful analogy ('molecular photocopier') and clearly articulates the practical motivation for PCR (trace amounts of DNA in real samples), making the reasoning feel more intuitive and connected.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete factual detail, including specific temperature ranges for each PCR step, the historical context of Mullis's invention, and more concrete examples across application domains.\",\n  \"a_strengths\": \"Response A includes specific technical details such as temperature ranges for denaturation, annealing, and extension, names Taq polymerase explicitly, credits Kary Mullis with the 1983 invention, and enumerates more specific applications including gene cloning and evolutionary studies.\",\n  \"b_strengths\": \"Response B offers a more concise and accessible explanation with a useful analogy ('molecular photocopier') and clearly articulates the practical motivation for PCR (trace amounts of DNA in real samples), making the reasoning feel more intuitive and connected.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:30Z"
+  },
+  {
+    "question_id": "fq_020",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides a more complete and mechanistically detailed explanation, including the initial step of how sunlight warms the surface through conduction before heating the air, and explicitly invokes Archimedes' principle and the ideal gas law to support its reasoning.",
+    "a_strengths": "Response A is concise and well-integrated, covering convection, adiabatic cooling, cloud formation, and thermal circulation in a coherent narrative, and it correctly mentions the surface low-pressure area and local breeze generation.",
+    "b_strengths": "Response B adds the foundational step of solar radiation passing through the atmosphere and warming the surface first, then transferring heat to air via conduction; it also explicitly references the ideal gas law and Archimedes' principle, providing stronger scientific grounding for each claim.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides a more complete and mechanistically detailed explanation, including the initial step of how sunlight warms the surface through conduction before heating the air, and explicitly invokes Archimedes' principle and the ideal gas law to support its reasoning.\",\n  \"a_strengths\": \"Response A is concise and well-integrated, covering convection, adiabatic cooling, cloud formation, and thermal circulation in a coherent narrative, and it correctly mentions the surface low-pressure area and local breeze generation.\",\n  \"b_strengths\": \"Response B adds the foundational step of solar radiation passing through the atmosphere and warming the surface first, then transferring heat to air via conduction; it also explicitly references the ideal gas law and Archimedes' principle, providing stronger scientific grounding for each claim.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:30Z"
+  },
+  {
+    "question_id": "fq_021",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers more dimensions of the distinction (specificity, production, homogeneity, and applications) with slightly more detail and completeness, while both responses are equally accurate.",
+    "a_strengths": "Response A is concise and well-reasoned, covering the key distinctions clearly in a flowing narrative, and includes the useful point about monoclonal antibodies being vulnerable to epitope alteration.",
+    "b_strengths": "Response B is more complete, explicitly addressing homogeneity/consistency as a separate category and providing more specific application examples (ELISA, flow cytometry, immunohistochemistry, immunoprecipitation), giving a fuller picture of how the distinctions matter in practice.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers more dimensions of the distinction (specificity, production, homogeneity, and applications) with slightly more detail and completeness, while both responses are equally accurate.\",\n  \"a_strengths\": \"Response A is concise and well-reasoned, covering the key distinctions clearly in a flowing narrative, and includes the useful point about monoclonal antibodies being vulnerable to epitope alteration.\",\n  \"b_strengths\": \"Response B is more complete, explicitly addressing homogeneity/consistency as a separate category and providing more specific application examples (ELISA, flow cytometry, immunohistochemistry, immunoprecipitation), giving a fuller picture of how the distinctions matter in practice.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:31Z"
+  },
+  {
+    "question_id": "fq_022",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more comprehensive coverage of chromosome mapping methods, applications, and reasoning, including additional details on genetic linkage analysis, chromosomal aberrations, evolutionary biology applications, and the integration of genetic and physical mapping approaches.",
+    "a_strengths": "Response A covers a broader range of mapping techniques (including STS mapping and contigs), explicitly discusses chromosomal aberrations and their clinical significance, addresses evolutionary biology applications, and provides more detailed reasoning about why chromosome mapping matters across multiple domains of science and medicine.",
+    "b_strengths": "Response B is concise and accurate, clearly explains the distinction between genetic and physical mapping, correctly notes the Human Genome Project completion in 2003, and covers the essential practical applications in a well-organized manner without sacrificing accuracy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more comprehensive coverage of chromosome mapping methods, applications, and reasoning, including additional details on genetic linkage analysis, chromosomal aberrations, evolutionary biology applications, and the integration of genetic and physical mapping approaches.\",\n  \"a_strengths\": \"Response A covers a broader range of mapping techniques (including STS mapping and contigs), explicitly discusses chromosomal aberrations and their clinical significance, addresses evolutionary biology applications, and provides more detailed reasoning about why chromosome mapping matters across multiple domains of science and medicine.\",\n  \"b_strengths\": \"Response B is concise and accurate, clearly explains the distinction between genetic and physical mapping, correctly notes the Human Genome Project completion in 2003, and covers the essential practical applications in a well-organized manner without sacrificing accuracy.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:31Z"
+  },
+  {
+    "question_id": "fq_023",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete historical coverage by addressing both the initial Tokugawa shogunate reactions and the Meiji Restoration, offering a more nuanced and thorough account of Japan's response to Lord Ii's concerns.",
+    "a_strengths": "Response A is concise, well-organized as a narrative, and accurately covers the key facts including Perry's arrival, the Meiji Restoration, and Japan's military victories over China and Russia, with clear logical flow.",
+    "b_strengths": "Response B covers more historical ground by distinguishing between the Tokugawa shogunate's initial reactive measures and the more comprehensive Meiji Restoration reforms, and explicitly connects each phase back to Lord Ii's specific concerns about antiquated systems and foreign military power.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete historical coverage by addressing both the initial Tokugawa shogunate reactions and the Meiji Restoration, offering a more nuanced and thorough account of Japan's response to Lord Ii's concerns.\",\n  \"a_strengths\": \"Response A is concise, well-organized as a narrative, and accurately covers the key facts including Perry's arrival, the Meiji Restoration, and Japan's military victories over China and Russia, with clear logical flow.\",\n  \"b_strengths\": \"Response B covers more historical ground by distinguishing between the Tokugawa shogunate's initial reactive measures and the more comprehensive Meiji Restoration reforms, and explicitly connects each phase back to Lord Ii's specific concerns about antiquated systems and foreign military power.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:34Z"
+  },
+  {
+    "question_id": "fq_025",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides a more complete and precise explanation by explicitly detailing the discontinuity in the MR curve, the vertical gap, and how MC passing through that gap explains price rigidity, which are key analytical elements the question implicitly requires.",
+    "a_strengths": "Response A is accurate, clearly written, and covers the core concepts of the kinked demand curve model including elasticity above and below the kink and the resulting price stickiness in a concise and accessible way.",
+    "b_strengths": "Response B adds greater analytical depth by explicitly explaining the MR discontinuity mechanism—the vertical gap and how MC fluctuations within that gap leave price unchanged—and correctly attributes the model to Paul Sweezy, making the explanation more complete and rigorous.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides a more complete and precise explanation by explicitly detailing the discontinuity in the MR curve, the vertical gap, and how MC passing through that gap explains price rigidity, which are key analytical elements the question implicitly requires.\",\n  \"a_strengths\": \"Response A is accurate, clearly written, and covers the core concepts of the kinked demand curve model including elasticity above and below the kink and the resulting price stickiness in a concise and accessible way.\",\n  \"b_strengths\": \"Response B adds greater analytical depth by explicitly explaining the MR discontinuity mechanism—the vertical gap and how MC fluctuations within that gap leave price unchanged—and correctly attributes the model to Paul Sweezy, making the explanation more complete and rigorous.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:35Z"
+  },
+  {
+    "question_id": "fq_026",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a more complete treatment by explicitly defining physical changes, giving the evaporation example with detailed reasoning, and then systematically contrasting physical changes with chemical changes in a garden context.",
+    "a_strengths": "Response A defines physical change before applying it, and dedicates a full section to contrasting evaporation with chemical changes like photosynthesis and decomposition, giving a more thorough and logically structured analysis.",
+    "b_strengths": "Response B covers the core content accurately and concisely, adds practical context about evaporation's role in the garden (cooling plant surfaces, influencing humidity, contributing to the water cycle), and is equally accurate in its factual claims.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a more complete treatment by explicitly defining physical changes, giving the evaporation example with detailed reasoning, and then systematically contrasting physical changes with chemical changes in a garden context.\",\n  \"a_strengths\": \"Response A defines physical change before applying it, and dedicates a full section to contrasting evaporation with chemical changes like photosynthesis and decomposition, giving a more thorough and logically structured analysis.\",\n  \"b_strengths\": \"Response B covers the core content accurately and concisely, adds practical context about evaporation's role in the garden (cooling plant surfaces, influencing humidity, contributing to the water cycle), and is equally accurate in its factual claims.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:35Z"
+  },
+  {
+    "question_id": "fq_024",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more specific examples, greater technical depth (e.g., taphonomy, bathymetry, oxygen levels via trace fossils), and more complete coverage of the mechanisms by which fossils indicate past environments.",
+    "a_strengths": "Response A introduces taphonomy as a distinct analytical layer, discusses oxygen levels and infaunal diversity, specifies particular fossil taxa as examples, addresses water energy and sedimentary structures in combination with fossils, and provides a more thorough treatment of how preservation state itself yields environmental information.",
+    "b_strengths": "Response B is concise and accurate, covers the core concepts clearly including uniformitarianism, trace fossils, and multiple environmental parameters, and is accessible without sacrificing correctness—making it a solid, complete answer despite being briefer.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more specific examples, greater technical depth (e.g., taphonomy, bathymetry, oxygen levels via trace fossils), and more complete coverage of the mechanisms by which fossils indicate past environments.\",\n  \"a_strengths\": \"Response A introduces taphonomy as a distinct analytical layer, discusses oxygen levels and infaunal diversity, specifies particular fossil taxa as examples, addresses water energy and sedimentary structures in combination with fossils, and provides a more thorough treatment of how preservation state itself yields environmental information.\",\n  \"b_strengths\": \"Response B is concise and accurate, covers the core concepts clearly including uniformitarianism, trace fossils, and multiple environmental parameters, and is accessible without sacrificing correctness—making it a solid, complete answer despite being briefer.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:36Z"
+  },
+  {
+    "question_id": "fq_027",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more specific and complete analysis by evaluating each answer option individually with mechanistic explanations, making the reasoning more thorough and directly applicable to the question format.",
+    "a_strengths": "Response A gives a clear general explanation of sympathetic vs. parasympathetic functions and correctly identifies digestion as the exception, with accurate reasoning about energy diversion during fight-or-flight.",
+    "b_strengths": "Response B systematically analyzes each likely answer option with specific mechanisms (e.g., radial muscle contraction for pupil dilation, norepinephrine at the sinoatrial node for heart rate, alpha-adrenergic receptor activation for vasoconstriction), providing more complete and educationally useful reasoning that directly addresses the multiple-choice format implied by the question.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more specific and complete analysis by evaluating each answer option individually with mechanistic explanations, making the reasoning more thorough and directly applicable to the question format.\",\n  \"a_strengths\": \"Response A gives a clear general explanation of sympathetic vs. parasympathetic functions and correctly identifies digestion as the exception, with accurate reasoning about energy diversion during fight-or-flight.\",\n  \"b_strengths\": \"Response B systematically analyzes each likely answer option with specific mechanisms (e.g., radial muscle contraction for pupil dilation, norepinephrine at the sinoatrial node for heart rate, alpha-adrenergic receptor activation for vasoconstriction), providing more complete and educationally useful reasoning that directly addresses the multiple-choice format implied by the question.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:39Z"
+  },
+  {
+    "question_id": "fq_028",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "strong",
+    "primary_reason": "Response A actually answers the question by identifying geographic isolation as the exception and providing clear reasoning, while Response B declines to give a definitive answer due to the absence of specific options.",
+    "a_strengths": "Response A commits to a specific, well-reasoned answer, correctly distinguishing geographic isolation as an external physical barrier rather than a biological reproductive isolating mechanism, and explains why the other mechanisms (temporal, behavioral, mechanical, gametic, hybrid inviability) are true biological barriers.",
+    "b_strengths": "Response B provides a thorough overview of reproductive isolating mechanisms and correctly categorizes them as prezygotic or postzygotic, which is useful background information, and it outlines a logical framework for approaching EXCEPT questions.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response A actually answers the question by identifying geographic isolation as the exception and providing clear reasoning, while Response B declines to give a definitive answer due to the absence of specific options.\",\n  \"a_strengths\": \"Response A commits to a specific, well-reasoned answer, correctly distinguishing geographic isolation as an external physical barrier rather than a biological reproductive isolating mechanism, and explains why the other mechanisms (temporal, behavioral, mechanical, gametic, hybrid inviability) are true biological barriers.\",\n  \"b_strengths\": \"Response B provides a thorough overview of reproductive isolating mechanisms and correctly categorizes them as prezygotic or postzygotic, which is useful background information, and it outlines a logical framework for approaching EXCEPT questions.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:40Z"
+  },
+  {
+    "question_id": "fq_030",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage of false statements about trypsin, including the additional detail that trypsin does not cleave before proline residues, and organizes the reasoning more systematically.",
+    "a_strengths": "Response A covers more false statements with explicit reasoning for each, includes the nuance about proline blocking cleavage, and clearly distinguishes true from false claims with structured analysis.",
+    "b_strengths": "Response B is concise and accurate, covering the key false statements clearly and correctly, and mentions trypsin's ability to activate other pancreatic enzymes, which A omits.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage of false statements about trypsin, including the additional detail that trypsin does not cleave before proline residues, and organizes the reasoning more systematically.\",\n  \"a_strengths\": \"Response A covers more false statements with explicit reasoning for each, includes the nuance about proline blocking cleavage, and clearly distinguishes true from false claims with structured analysis.\",\n  \"b_strengths\": \"Response B is concise and accurate, covering the key false statements clearly and correctly, and mentions trypsin's ability to activate other pancreatic enzymes, which A omits.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:40Z"
+  },
+  {
+    "question_id": "fq_029",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers more specific biochemical and cellular details (e.g., contractile vacuoles, signal transduction cascades, specific transport mechanisms) and addresses more dimensions of the question with greater factual completeness.",
+    "a_strengths": "Response A provides a more balanced and nuanced comparison by clearly articulating the key differences alongside similarities, giving the reader a fuller conceptual picture; it also correctly contextualizes the mouse skin cell as a dependent, specialized component versus the amoeba as an autonomous organism.",
+    "b_strengths": "Response B is more thorough in covering specific shared features across multiple biological domains—structure, metabolism, genetics, membrane transport, and environmental response—and includes more precise factual details such as contractile vacuoles, conserved signal transduction pathways, and specific transport mechanisms.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers more specific biochemical and cellular details (e.g., contractile vacuoles, signal transduction cascades, specific transport mechanisms) and addresses more dimensions of the question with greater factual completeness.\",\n  \"a_strengths\": \"Response A provides a more balanced and nuanced comparison by clearly articulating the key differences alongside similarities, giving the reader a fuller conceptual picture; it also correctly contextualizes the mouse skin cell as a dependent, specialized component versus the amoeba as an autonomous organism.\",\n  \"b_strengths\": \"Response B is more thorough in covering specific shared features across multiple biological domains—structure, metabolism, genetics, membrane transport, and environmental response—and includes more precise factual details such as contractile vacuoles, conserved signal transduction pathways, and specific transport mechanisms.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:41Z"
+  },
+  {
+    "question_id": "fq_031",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides equally accurate and complete information in a more concise and coherent form, including the valuable evolutionary context comparing ferns to mosses and seed plants, without the redundancy found in Response B.",
+    "a_strengths": "Response A covers all key facts (sporophyte dominance, prothallus, sporangia, meiosis, water-dependent fertilization) in a well-integrated narrative and adds meaningful evolutionary context situating ferns between mosses and seed plants, which enriches the explanation without repetition.",
+    "b_strengths": "Response B explicitly completes the fill-in-the-blank framing of the question ('in which a sporophyte generation is dominant') and clearly defines dominance in terms of size, longevity, and complexity, which directly addresses the question's phrasing.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides equally accurate and complete information in a more concise and coherent form, including the valuable evolutionary context comparing ferns to mosses and seed plants, without the redundancy found in Response B.\",\n  \"a_strengths\": \"Response A covers all key facts (sporophyte dominance, prothallus, sporangia, meiosis, water-dependent fertilization) in a well-integrated narrative and adds meaningful evolutionary context situating ferns between mosses and seed plants, which enriches the explanation without repetition.\",\n  \"b_strengths\": \"Response B explicitly completes the fill-in-the-blank framing of the question ('in which a sporophyte generation is dominant') and clearly defines dominance in terms of size, longevity, and complexity, which directly addresses the question's phrasing.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:43Z"
+  },
+  {
+    "question_id": "fq_033",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete reasoning by explicitly identifying burrowing/subterranean habits as a key survival mechanism during the fire itself, not just after it, and by distinguishing between survival of the fire event and post-fire resource competition.",
+    "a_strengths": "Response A is concise and accurate, correctly identifying generalist herbivores and omnivores as best competitors, and mentions mobility and dietary flexibility as key advantages with good concrete examples like deer, bison, quail, and grasshoppers.",
+    "b_strengths": "Response B adds the important dimension of how animals survive the fire itself (burrowing, subterranean life stages), discusses open-habitat adaptations including predation risk in low-cover environments, and more systematically enumerates the multiple interacting factors that determine post-fire competitive success.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete reasoning by explicitly identifying burrowing/subterranean habits as a key survival mechanism during the fire itself, not just after it, and by distinguishing between survival of the fire event and post-fire resource competition.\",\n  \"a_strengths\": \"Response A is concise and accurate, correctly identifying generalist herbivores and omnivores as best competitors, and mentions mobility and dietary flexibility as key advantages with good concrete examples like deer, bison, quail, and grasshoppers.\",\n  \"b_strengths\": \"Response B adds the important dimension of how animals survive the fire itself (burrowing, subterranean life stages), discusses open-habitat adaptations including predation risk in low-cover environments, and more systematically enumerates the multiple interacting factors that determine post-fire competitive success.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:45Z"
+  },
+  {
+    "question_id": "fq_034",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B identifies more specific and complete historical events, including the Roosevelt Corollary (1904), the Platt Amendment (1901), and the Panama intervention (1903), providing a more thorough factual foundation for the analysis.",
+    "a_strengths": "Response A is concise and well-reasoned, connecting the events to the poem's themes of cultural and spiritual identity versus materialistic aggression in a fluid, integrated way.",
+    "b_strengths": "Response B covers a broader range of specific historical events with greater factual detail, including the Roosevelt Corollary which is particularly relevant given the poem's direct address to Roosevelt and its 1904 publication date, making the historical context more complete and accurate.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B identifies more specific and complete historical events, including the Roosevelt Corollary (1904), the Platt Amendment (1901), and the Panama intervention (1903), providing a more thorough factual foundation for the analysis.\",\n  \"a_strengths\": \"Response A is concise and well-reasoned, connecting the events to the poem's themes of cultural and spiritual identity versus materialistic aggression in a fluid, integrated way.\",\n  \"b_strengths\": \"Response B covers a broader range of specific historical events with greater factual detail, including the Roosevelt Corollary which is particularly relevant given the poem's direct address to Roosevelt and its 1904 publication date, making the historical context more complete and accurate.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:45Z"
+  },
+  {
+    "question_id": "fq_032",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A is more complete, acknowledging multiple processes fungi do not participate in (photosynthesis, nitrogen fixation, chemosynthesis, phagotrophy) and correctly identifying photosynthesis as the most common answer in standard biology curricula, while Response B arbitrarily selects only nitrogen fixation without acknowledging the question's likely multiple-choice context.",
+    "a_strengths": "Response A covers a broader range of processes fungi do not perform, explicitly notes the likely multiple-choice framing of the question, and correctly identifies photosynthesis as the most probable intended answer while still acknowledging nitrogen fixation and other exceptions.",
+    "b_strengths": "Response B provides a focused, accurate, and well-reasoned explanation of why fungi do not perform nitrogen fixation, including relevant details about which organisms do perform it and how fungi do contribute to the nitrogen cycle in other ways.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A is more complete, acknowledging multiple processes fungi do not participate in (photosynthesis, nitrogen fixation, chemosynthesis, phagotrophy) and correctly identifying photosynthesis as the most common answer in standard biology curricula, while Response B arbitrarily selects only nitrogen fixation without acknowledging the question's likely multiple-choice context.\",\n  \"a_strengths\": \"Response A covers a broader range of processes fungi do not perform, explicitly notes the likely multiple-choice framing of the question, and correctly identifies photosynthesis as the most probable intended answer while still acknowledging nitrogen fixation and other exceptions.\",\n  \"b_strengths\": \"Response B provides a focused, accurate, and well-reasoned explanation of why fungi do not perform nitrogen fixation, including relevant details about which organisms do perform it and how fungi do contribute to the nitrogen cycle in other ways.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:45Z"
+  },
+  {
+    "question_id": "fq_035",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a more complete explanation by explicitly introducing and explaining the concept of inclusive fitness, connecting it to both direct and indirect fitness components, which adds analytical depth beyond what Response B offers.",
+    "a_strengths": "Response A explicitly introduces inclusive fitness and explains how it encompasses both direct offspring and indirect effects on relatives, providing a more thorough theoretical grounding for why r matters in evolutionary terms.",
+    "b_strengths": "Response B is concise and accurate, includes a clear concrete example illustrating how the rule works in practice, and explains the gene-centric logic ('genes promoting altruism can spread if they help copies of themselves residing in relatives') in an accessible way.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a more complete explanation by explicitly introducing and explaining the concept of inclusive fitness, connecting it to both direct and indirect fitness components, which adds analytical depth beyond what Response B offers.\",\n  \"a_strengths\": \"Response A explicitly introduces inclusive fitness and explains how it encompasses both direct offspring and indirect effects on relatives, providing a more thorough theoretical grounding for why r matters in evolutionary terms.\",\n  \"b_strengths\": \"Response B is concise and accurate, includes a clear concrete example illustrating how the rule works in practice, and explains the gene-centric logic ('genes promoting altruism can spread if they help copies of themselves residing in relatives') in an accessible way.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:48Z"
+  },
+  {
+    "question_id": "fq_036",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more thorough and complete reasoning by separately analyzing each observation (floating, buzzing, bubbling) and explicitly ruling out alternative conclusions, making the logical chain more rigorous.",
+    "a_strengths": "Response A includes the balanced chemical equation, explicitly distinguishes physical from chemical properties when explaining floating, addresses alternative explanations and rules them out, and provides a more systematic breakdown of how each observation supports the overall conclusion.",
+    "b_strengths": "Response B adds a useful comparative note about lithium being less violent than sodium or potassium, and correctly uses the term 'displacement reaction,' providing some additional chemical context in a concise form.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more thorough and complete reasoning by separately analyzing each observation (floating, buzzing, bubbling) and explicitly ruling out alternative conclusions, making the logical chain more rigorous.\",\n  \"a_strengths\": \"Response A includes the balanced chemical equation, explicitly distinguishes physical from chemical properties when explaining floating, addresses alternative explanations and rules them out, and provides a more systematic breakdown of how each observation supports the overall conclusion.\",\n  \"b_strengths\": \"Response B adds a useful comparative note about lithium being less violent than sodium or potassium, and correctly uses the term 'displacement reaction,' providing some additional chemical context in a concise form.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:49Z"
+  },
+  {
+    "question_id": "fq_038",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a more concise and coherent analysis that flows naturally from observation to explanation to conclusion, without redundancy or repetitive structural labeling that obscures the reasoning.",
+    "a_strengths": "Response A presents a clear, unified argument that traces the logical progression from premises to conclusion in a single, well-integrated explanation, making the reasoning easy to follow and the identification of the conclusion unambiguous.",
+    "b_strengths": "Response B explicitly identifies the linguistic cue 'Because of this' as a signal marking the conclusion, which is a useful logical observation, and it breaks down the argument into distinct analytical steps that some readers may find helpful.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a more concise and coherent analysis that flows naturally from observation to explanation to conclusion, without redundancy or repetitive structural labeling that obscures the reasoning.\",\n  \"a_strengths\": \"Response A presents a clear, unified argument that traces the logical progression from premises to conclusion in a single, well-integrated explanation, making the reasoning easy to follow and the identification of the conclusion unambiguous.\",\n  \"b_strengths\": \"Response B explicitly identifies the linguistic cue 'Because of this' as a signal marking the conclusion, which is a useful logical observation, and it breaks down the argument into distinct analytical steps that some readers may find helpful.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:50Z"
+  },
+  {
+    "question_id": "fq_037",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete and accurate coverage, including additional mechanisms like adsorption, ion exchange, biological degradation, the distinction between confined and unconfined aquifers, and specific vulnerability factors like karst geology and nitrates.",
+    "a_strengths": "Response A is concise and clearly written, covering the core concepts of geological filtration, surface isolation, and limitations of aquifer purity in an accessible way.",
+    "b_strengths": "Response B includes more precise scientific detail such as adsorption, ion exchange, confined vs. unconfined aquifer distinctions, slow recharge rates as a purification factor, specific contaminant types (nitrates, pesticides, industrial solvents), karst geology vulnerabilities, and the important qualification that treated surface water can match untreated aquifer water quality.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete and accurate coverage, including additional mechanisms like adsorption, ion exchange, biological degradation, the distinction between confined and unconfined aquifers, and specific vulnerability factors like karst geology and nitrates.\",\n  \"a_strengths\": \"Response A is concise and clearly written, covering the core concepts of geological filtration, surface isolation, and limitations of aquifer purity in an accessible way.\",\n  \"b_strengths\": \"Response B includes more precise scientific detail such as adsorption, ion exchange, confined vs. unconfined aquifer distinctions, slow recharge rates as a purification factor, specific contaminant types (nitrates, pesticides, industrial solvents), karst geology vulnerabilities, and the important qualification that treated surface water can match untreated aquifer water quality.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:50Z"
+  },
+  {
+    "question_id": "fq_039",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete and specific factual detail about Mongol administration in Russia, including mention of basqaqs, censuses, and the steppe-based nature of Mongol rule, while also more thoroughly analyzing the contrast in urban organization and administrative philosophy.",
+    "a_strengths": "Response A is concise and clearly articulates the core distinction between direct centralized rule in China versus indirect rule through local princes in Russia, and correctly notes the Orthodox Church tax exemption as an example of religious tolerance in Russia.",
+    "b_strengths": "Response B offers more specific historical details such as the role of basqaqs, the steppe-based settlement pattern, and the lack of urban district organization in Russia, and provides a more thorough comparative analysis explaining why the two administrative approaches differed based on contextual factors like urbanization levels and existing administrative traditions.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete and specific factual detail about Mongol administration in Russia, including mention of basqaqs, censuses, and the steppe-based nature of Mongol rule, while also more thoroughly analyzing the contrast in urban organization and administrative philosophy.\",\n  \"a_strengths\": \"Response A is concise and clearly articulates the core distinction between direct centralized rule in China versus indirect rule through local princes in Russia, and correctly notes the Orthodox Church tax exemption as an example of religious tolerance in Russia.\",\n  \"b_strengths\": \"Response B offers more specific historical details such as the role of basqaqs, the steppe-based settlement pattern, and the lack of urban district organization in Russia, and provides a more thorough comparative analysis explaining why the two administrative approaches differed based on contextual factors like urbanization levels and existing administrative traditions.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:53Z"
+  },
+  {
+    "question_id": "fq_041",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a complete truth table with all 8 rows explicitly shown, making the reasoning fully verifiable, whereas Response B only describes the table verbally without presenting it.",
+    "a_strengths": "Response A constructs and displays the full 8-row truth table, explicitly identifies which rows have all premises true, and clearly demonstrates the counterexample with computed values for each formula.",
+    "b_strengths": "Response B reaches the same correct conclusions with accurate reasoning and is more concise, correctly identifying the counterexample and explaining why the argument is invalid without any logical errors.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a complete truth table with all 8 rows explicitly shown, making the reasoning fully verifiable, whereas Response B only describes the table verbally without presenting it.\",\n  \"a_strengths\": \"Response A constructs and displays the full 8-row truth table, explicitly identifies which rows have all premises true, and clearly demonstrates the counterexample with computed values for each formula.\",\n  \"b_strengths\": \"Response B reaches the same correct conclusions with accurate reasoning and is more concise, correctly identifying the counterexample and explaining why the argument is invalid without any logical errors.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:54Z"
+  },
+  {
+    "question_id": "fq_042",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Both responses are factually accurate and cover the same core mechanisms, but Response A presents the reasoning in a more integrated and analytically coherent way, connecting the mechanisms to each other and to the contrast with asexual reproduction more fluidly.",
+    "a_strengths": "Response A weaves the mechanisms (crossing over, independent assortment, random fertilization) into a cohesive narrative that clearly explains how each step builds on the previous one to generate diversity, and explicitly contrasts this with asexual reproduction in a logically flowing argument.",
+    "b_strengths": "Response B covers the same mechanisms and adds a slightly more explicit discussion of evolutionary advantages, including the point about recombination allowing harmful mutations to be masked or eliminated through natural selection, which is a useful additional detail not present in Response A.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Both responses are factually accurate and cover the same core mechanisms, but Response A presents the reasoning in a more integrated and analytically coherent way, connecting the mechanisms to each other and to the contrast with asexual reproduction more fluidly.\",\n  \"a_strengths\": \"Response A weaves the mechanisms (crossing over, independent assortment, random fertilization) into a cohesive narrative that clearly explains how each step builds on the previous one to generate diversity, and explicitly contrasts this with asexual reproduction in a logically flowing argument.\",\n  \"b_strengths\": \"Response B covers the same mechanisms and adds a slightly more explicit discussion of evolutionary advantages, including the point about recombination allowing harmful mutations to be masked or eliminated through natural selection, which is a useful additional detail not present in Response A.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:54Z"
+  },
+  {
+    "question_id": "fq_040",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B is more complete, explicitly addressing effects on substitute goods, complementary goods, and producer revenue/elasticity considerations that Response A largely omits.",
+    "a_strengths": "Response A correctly covers the law of demand, substitution and income effects, mentions the Giffen good exception, and touches on supply-side responses, showing solid microeconomic grounding in a concise way.",
+    "b_strengths": "Response B systematically covers a broader range of economic consequences—demand for substitutes shifting right, demand for complements shifting left, and the elasticity-dependent effect on producer revenue—making it more thorough and complete in addressing what a price increase implies across related markets.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B is more complete, explicitly addressing effects on substitute goods, complementary goods, and producer revenue/elasticity considerations that Response A largely omits.\",\n  \"a_strengths\": \"Response A correctly covers the law of demand, substitution and income effects, mentions the Giffen good exception, and touches on supply-side responses, showing solid microeconomic grounding in a concise way.\",\n  \"b_strengths\": \"Response B systematically covers a broader range of economic consequences—demand for substitutes shifting right, demand for complements shifting left, and the elasticity-dependent effect on producer revenue—making it more thorough and complete in addressing what a price increase implies across related markets.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:54Z"
+  },
+  {
+    "question_id": "fq_043",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a marginally more complete and systematic explanation by explicitly walking through each Punnett square cell and clearly separating the genotypic ratio from the phenotypic ratio, making the logical steps more transparent.",
+    "a_strengths": "Response A explicitly enumerates each Punnett square outcome, clearly distinguishes genotypic ratio (1 BB : 2 Bb : 1 bb) from phenotypic ratio (3:1), and organizes the reasoning into discrete logical steps that are easy to follow.",
+    "b_strengths": "Response B is concise and accurate, covering all the essential points (heterozygous parents, possible offspring combinations, 75%/25% phenotypic split, monohybrid cross terminology) in a clear, readable paragraph without sacrificing correctness.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a marginally more complete and systematic explanation by explicitly walking through each Punnett square cell and clearly separating the genotypic ratio from the phenotypic ratio, making the logical steps more transparent.\",\n  \"a_strengths\": \"Response A explicitly enumerates each Punnett square outcome, clearly distinguishes genotypic ratio (1 BB : 2 Bb : 1 bb) from phenotypic ratio (3:1), and organizes the reasoning into discrete logical steps that are easy to follow.\",\n  \"b_strengths\": \"Response B is concise and accurate, covering all the essential points (heterozygous parents, possible offspring combinations, 75%/25% phenotypic split, monohybrid cross terminology) in a clear, readable paragraph without sacrificing correctness.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:58Z"
+  },
+  {
+    "question_id": "fq_044",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more specific and complete information, including IARC classification authority, specific cancer types linked to each tobacco product, and more detailed mechanistic explanations, making it more accurate and complete overall.",
+    "a_strengths": "Response A mentions betel quid with tobacco (paan) and secondhand smoke as carcinogens, which Response B omits, and covers the topic in a concise, accessible manner without sacrificing key points.",
+    "b_strengths": "Response B cites IARC Group 1 classification as an authoritative source, lists specific cancers associated with each tobacco product type, distinguishes between loose leaf/plug/twist forms of chewing tobacco, and provides more detailed reasoning about mechanisms of carcinogenicity for each category.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more specific and complete information, including IARC classification authority, specific cancer types linked to each tobacco product, and more detailed mechanistic explanations, making it more accurate and complete overall.\",\n  \"a_strengths\": \"Response A mentions betel quid with tobacco (paan) and secondhand smoke as carcinogens, which Response B omits, and covers the topic in a concise, accessible manner without sacrificing key points.\",\n  \"b_strengths\": \"Response B cites IARC Group 1 classification as an authoritative source, lists specific cancers associated with each tobacco product type, distinguishes between loose leaf/plug/twist forms of chewing tobacco, and provides more detailed reasoning about mechanisms of carcinogenicity for each category.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:58Z"
+  },
+  {
+    "question_id": "fq_045",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more technical depth by introducing the ACE model and explaining how heritability estimates are quantitatively derived, offering stronger methodological reasoning.",
+    "a_strengths": "Response A introduces the ACE model (additive genetic, common environmental, unique environmental components), explains concordance rates and correlation coefficients as analytical tools, and gives a specific example of autism spectrum disorder research, providing greater technical and empirical depth.",
+    "b_strengths": "Response B explicitly acknowledges the equal environments assumption as a limitation, mentions the methodological advantage of twins being matched for age, and is more balanced in noting both strengths and caveats, making it slightly more critical and nuanced in its treatment of limitations.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more technical depth by introducing the ACE model and explaining how heritability estimates are quantitatively derived, offering stronger methodological reasoning.\",\n  \"a_strengths\": \"Response A introduces the ACE model (additive genetic, common environmental, unique environmental components), explains concordance rates and correlation coefficients as analytical tools, and gives a specific example of autism spectrum disorder research, providing greater technical and empirical depth.\",\n  \"b_strengths\": \"Response B explicitly acknowledges the equal environments assumption as a limitation, mentions the methodological advantage of twins being matched for age, and is more balanced in noting both strengths and caveats, making it slightly more critical and nuanced in its treatment of limitations.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:59Z"
+  },
+  {
+    "question_id": "fq_046",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more precisely identifies the critical prerequisite event as the rapid burial of organic matter under sediment (preventing decomposition), which is the more specific and accurate answer to what must occur before fossil fuel formation, rather than the broader 'emergence of life' framing.",
+    "a_strengths": "Response A clearly distinguishes between coal and oil formation processes, explicitly names catagenesis, and provides a well-organized explanation of the successive stages of transformation including the peat-to-coal progression.",
+    "b_strengths": "Response B correctly identifies that the essential prerequisite is not merely the existence of life but the specific combination of massive organic accumulation AND rapid sedimentary burial before decomposition could occur, which is the more precise and complete answer; it also mentions kerogen as an intermediate product and includes lacustrine environments as an additional source for oil.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more precisely identifies the critical prerequisite event as the rapid burial of organic matter under sediment (preventing decomposition), which is the more specific and accurate answer to what must occur before fossil fuel formation, rather than the broader 'emergence of life' framing.\",\n  \"a_strengths\": \"Response A clearly distinguishes between coal and oil formation processes, explicitly names catagenesis, and provides a well-organized explanation of the successive stages of transformation including the peat-to-coal progression.\",\n  \"b_strengths\": \"Response B correctly identifies that the essential prerequisite is not merely the existence of life but the specific combination of massive organic accumulation AND rapid sedimentary burial before decomposition could occur, which is the more precise and complete answer; it also mentions kerogen as an intermediate product and includes lacustrine environments as an additional source for oil.\"\n}",
+    "evaluated_at": "2026-03-25T13:38:59Z"
+  },
+  {
+    "question_id": "fq_047",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete reasoning by explicitly connecting each term to classical economic categories (e.g., linking natural resources to the traditional 'land' factor) and noting the historical evolution from traditional to contemporary factor classifications.",
+    "a_strengths": "Response A is concise and accurate, covering all five factors clearly and correctly identifying them as factors of production with solid definitions for each.",
+    "b_strengths": "Response B offers deeper analysis by connecting modern factor categories to classical economic theory, distinguishing human capital as a specialized component of labor, and noting that entrepreneurship is a contemporary addition to traditional frameworks, providing more complete context for the answer.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete reasoning by explicitly connecting each term to classical economic categories (e.g., linking natural resources to the traditional 'land' factor) and noting the historical evolution from traditional to contemporary factor classifications.\",\n  \"a_strengths\": \"Response A is concise and accurate, covering all five factors clearly and correctly identifying them as factors of production with solid definitions for each.\",\n  \"b_strengths\": \"Response B offers deeper analysis by connecting modern factor categories to classical economic theory, distinguishing human capital as a specialized component of labor, and noting that entrepreneurship is a contemporary addition to traditional frameworks, providing more complete context for the answer.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:02Z"
+  },
+  {
+    "question_id": "fq_049",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B includes an explicit consistency check that verifies each premise with the assigned truth values, providing a more complete and rigorous validation of the counterexample.",
+    "a_strengths": "Response A is clear, concise, and logically correct in its reasoning, arriving at the same valid counterexample with well-explained steps.",
+    "b_strengths": "Response B adds an explicit verification step that checks each premise individually with the assigned truth values, confirming the counterexample is correct and making the reasoning more complete and rigorous.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B includes an explicit consistency check that verifies each premise with the assigned truth values, providing a more complete and rigorous validation of the counterexample.\",\n  \"a_strengths\": \"Response A is clear, concise, and logically correct in its reasoning, arriving at the same valid counterexample with well-explained steps.\",\n  \"b_strengths\": \"Response B adds an explicit verification step that checks each premise individually with the assigned truth values, confirming the counterexample is correct and making the reasoning more complete and rigorous.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:02Z"
+  },
+  {
+    "question_id": "fq_048",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more precise and complete factual detail, such as specifying yarding behavior, density-dependent dynamics, and host-to-host contact rates, offering deeper analytical depth on each mechanism.",
+    "a_strengths": "Response A introduces more specific biological concepts (density-dependent limiting factors, yarding behavior, host-to-host transmission rates, energy deficit mechanics) and develops each mechanism with greater analytical rigor and completeness.",
+    "b_strengths": "Response B is concise and covers the same core mechanisms accurately, making it accessible and well-reasoned for a general audience, with no significant factual errors.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more precise and complete factual detail, such as specifying yarding behavior, density-dependent dynamics, and host-to-host contact rates, offering deeper analytical depth on each mechanism.\",\n  \"a_strengths\": \"Response A introduces more specific biological concepts (density-dependent limiting factors, yarding behavior, host-to-host transmission rates, energy deficit mechanics) and develops each mechanism with greater analytical rigor and completeness.\",\n  \"b_strengths\": \"Response B is concise and covers the same core mechanisms accurately, making it accessible and well-reasoned for a general audience, with no significant factual errors.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:03Z"
+  },
+  {
+    "question_id": "fq_050",
+    "stream": "factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers more dimensions of human environmental change—mechanisms, consequences, and broader implications—making it more complete in addressing the question's request for a detailed explanation.",
+    "a_strengths": "Response A provides a highly specific, well-grounded case study (Hoover Dam) with accurate details about sediment transport, native fish decline, downstream habitat effects, and water chemistry changes, demonstrating strong factual depth and coherent reasoning within a single example.",
+    "b_strengths": "Response B addresses a broader and arguably more globally significant example (deforestation), covers multiple interconnected mechanisms (soil erosion, biodiversity loss, carbon release, climate change), and explicitly discusses broader implications and irreversibility, making it more comprehensive in scope and completeness.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers more dimensions of human environmental change—mechanisms, consequences, and broader implications—making it more complete in addressing the question's request for a detailed explanation.\",\n  \"a_strengths\": \"Response A provides a highly specific, well-grounded case study (Hoover Dam) with accurate details about sediment transport, native fish decline, downstream habitat effects, and water chemistry changes, demonstrating strong factual depth and coherent reasoning within a single example.\",\n  \"b_strengths\": \"Response B addresses a broader and arguably more globally significant example (deforestation), covers multiple interconnected mechanisms (soil erosion, biodiversity loss, carbon release, climate change), and explicitly discusses broader implications and irreversibility, making it more comprehensive in scope and completeness.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:04Z"
+  },
+  {
+    "question_id": "nf_003",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers additional important dimensions such as meta-ethics, cultural relativism, intellectual honesty, and the examined life, making it more complete in addressing the ethical considerations the question asks about.",
+    "a_strengths": "Response A provides clear structured explanations of ethical theories and reasoning tools like thought experiments and the trolley problem, and explicitly connects ethical reasoning to policy-making and societal norms.",
+    "b_strengths": "Response B includes meta-ethical considerations (whether moral statements express objective truths, subjective emotions, or social conventions), addresses cultural relativism versus universal moral truths, emphasizes intellectual honesty and openness to opposing views, and connects philosophical ethics to the concept of the examined life, resulting in a more comprehensive treatment of the topic.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers additional important dimensions such as meta-ethics, cultural relativism, intellectual honesty, and the examined life, making it more complete in addressing the ethical considerations the question asks about.\",\n  \"a_strengths\": \"Response A provides clear structured explanations of ethical theories and reasoning tools like thought experiments and the trolley problem, and explicitly connects ethical reasoning to policy-making and societal norms.\",\n  \"b_strengths\": \"Response B includes meta-ethical considerations (whether moral statements express objective truths, subjective emotions, or social conventions), addresses cultural relativism versus universal moral truths, emphasizes intellectual honesty and openness to opposing views, and connects philosophical ethics to the concept of the examined life, resulting in a more comprehensive treatment of the topic.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:07Z"
+  },
+  {
+    "question_id": "nf_001",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more accurately captures Singer's specific reasoning about why inequality is the least serious concern, particularly his argument that new technologies tend to become more affordable and accessible over time, which is a key part of Singer's actual argument.",
+    "a_strengths": "Response A provides a coherent utilitarian framework and makes a strong point about how genetic inequality mirrors pre-existing social inequalities that society already tolerates, and it correctly identifies that Singer views other concerns (like loss of genetic diversity or imposition of parental values) as more serious.",
+    "b_strengths": "Response B more accurately reflects Singer's actual argument about technological diffusion making inequality a temporary rather than permanent problem, correctly identifies preference utilitarianism as Singer's framework, and better contrasts the inequality concern with more serious problems like loss of child autonomy and coercive eugenics, which aligns more closely with Singer's actual text.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more accurately captures Singer's specific reasoning about why inequality is the least serious concern, particularly his argument that new technologies tend to become more affordable and accessible over time, which is a key part of Singer's actual argument.\",\n  \"a_strengths\": \"Response A provides a coherent utilitarian framework and makes a strong point about how genetic inequality mirrors pre-existing social inequalities that society already tolerates, and it correctly identifies that Singer views other concerns (like loss of genetic diversity or imposition of parental values) as more serious.\",\n  \"b_strengths\": \"Response B more accurately reflects Singer's actual argument about technological diffusion making inequality a temporary rather than permanent problem, correctly identifies preference utilitarianism as Singer's framework, and better contrasts the inequality concern with more serious problems like loss of child autonomy and coercive eugenics, which aligns more closely with Singer's actual text.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:07Z"
+  },
+  {
+    "question_id": "nf_004",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage of the ethical considerations, including the specific concepts of safetyism, proportionality, and developmental ethics, while also offering a more nuanced synthesis of the competing ethical frameworks.",
+    "a_strengths": "Response A more accurately identifies Lukianoff and Haidt's central concept of 'safetyism,' provides a more thorough breakdown of both sides of the ethical debate including proportionality and fairness concerns, and offers a constructive synthesis suggesting what a more balanced approach might look like.",
+    "b_strengths": "Response B accurately captures the 'culture of victimhood' framing and emotional reasoning critique, and presents the core tension between harm prevention and free expression in a concise and accessible way that is still substantively correct.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage of the ethical considerations, including the specific concepts of safetyism, proportionality, and developmental ethics, while also offering a more nuanced synthesis of the competing ethical frameworks.\",\n  \"a_strengths\": \"Response A more accurately identifies Lukianoff and Haidt's central concept of 'safetyism,' provides a more thorough breakdown of both sides of the ethical debate including proportionality and fairness concerns, and offers a constructive synthesis suggesting what a more balanced approach might look like.\",\n  \"b_strengths\": \"Response B accurately captures the 'culture of victimhood' framing and emotional reasoning critique, and presents the core tension between harm prevention and free expression in a concise and accessible way that is still substantively correct.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:09Z"
+  },
+  {
+    "question_id": "nf_002",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more thorough and better-supported reasoning by explicitly enumerating the ethical principles violated in each scenario and offering a more detailed comparative analysis.",
+    "a_strengths": "Response A is concise and clear, accurately identifying the key moral distinction between the two scenarios and articulating the core ethical issues (deception, autonomy, consent, potential harm) in a well-organized paragraph.",
+    "b_strengths": "Response B offers more comprehensive analysis by explicitly invoking ethical principles like non-maleficence and autonomy, enumerating specific harms in Scenario 2, and providing a structured comparative evaluation that more fully addresses the question's request to discuss relevant ethical considerations.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more thorough and better-supported reasoning by explicitly enumerating the ethical principles violated in each scenario and offering a more detailed comparative analysis.\",\n  \"a_strengths\": \"Response A is concise and clear, accurately identifying the key moral distinction between the two scenarios and articulating the core ethical issues (deception, autonomy, consent, potential harm) in a well-organized paragraph.\",\n  \"b_strengths\": \"Response B offers more comprehensive analysis by explicitly invoking ethical principles like non-maleficence and autonomy, enumerating specific harms in Scenario 2, and providing a structured comparative evaluation that more fully addresses the question's request to discuss relevant ethical considerations.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:11Z"
+  },
+  {
+    "question_id": "nf_005",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more precise identification of the inconsistent proposition with a concrete example, and offers more thorough ethical analysis covering recognition of harm, agency, and epistemic justice.",
+    "a_strengths": "Response A is concise and accurately captures MacKinnon's core argument, correctly identifying that propositions framing gender as biology, free choice, or 'different but equal' are inconsistent with her power-based analysis.",
+    "b_strengths": "Response B offers a more specific and concrete example of an inconsistent proposition, provides a clearer structural analysis distinguishing symptom from cause, and develops the ethical considerations more fully across multiple dimensions including epistemic justice, which is central to MacKinnon's work.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more precise identification of the inconsistent proposition with a concrete example, and offers more thorough ethical analysis covering recognition of harm, agency, and epistemic justice.\",\n  \"a_strengths\": \"Response A is concise and accurately captures MacKinnon's core argument, correctly identifying that propositions framing gender as biology, free choice, or 'different but equal' are inconsistent with her power-based analysis.\",\n  \"b_strengths\": \"Response B offers a more specific and concrete example of an inconsistent proposition, provides a clearer structural analysis distinguishing symptom from cause, and develops the ethical considerations more fully across multiple dimensions including epistemic justice, which is central to MacKinnon's work.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:12Z"
+  },
+  {
+    "question_id": "nf_016",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "strong",
+    "primary_reason": "Response A correctly identifies Scenario 2 (bringing a gun into a classroom) as the clearer moral wrong, while Response B reaches the opposite and less defensible conclusion that Scenario 1 (helpfully cleaning someone's house) is the clearer moral wrong.",
+    "a_strengths": "Response A accurately identifies that bringing a gun into a classroom—even with a permit and defensive intent—is the more clearly morally wrong action under ordinary U.S. standards, correctly weighing the serious risk to children, violation of school safety norms, and the special duty of care owed to students against the well-intentioned but privacy-violating house cleaning.",
+    "b_strengths": "Response B provides more detailed structured analysis of each scenario individually and raises valid points about autonomy, consent, and privacy in Scenario 1, and acknowledges the polarized debate around guns in schools in Scenario 2.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response A correctly identifies Scenario 2 (bringing a gun into a classroom) as the clearer moral wrong, while Response B reaches the opposite and less defensible conclusion that Scenario 1 (helpfully cleaning someone's house) is the clearer moral wrong.\",\n  \"a_strengths\": \"Response A accurately identifies that bringing a gun into a classroom—even with a permit and defensive intent—is the more clearly morally wrong action under ordinary U.S. standards, correctly weighing the serious risk to children, violation of school safety norms, and the special duty of care owed to students against the well-intentioned but privacy-violating house cleaning.\",\n  \"b_strengths\": \"Response B provides more detailed structured analysis of each scenario individually and raises valid points about autonomy, consent, and privacy in Scenario 1, and acknowledges the polarized debate around guns in schools in Scenario 2.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:12Z"
+  },
+  {
+    "question_id": "nf_017",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more thorough and systematically complete analysis of both scenarios, covering more ethical dimensions including legal context, harm to vulnerable populations, and consent considerations.",
+    "a_strengths": "Response A offers more detailed reasoning for each scenario, explicitly addresses multiple ethical principles (public decency, harm, consent, legal consensus), and draws a clear comparative conclusion that directly answers the question about which scenario involves moral wrongdoing.",
+    "b_strengths": "Response B is more concise and introduces a useful point about the 'social contract' and frames the schoolyard nudity as 'involuntary sexual exposure,' which adds a dimension not explicitly named in Response A; it also notes the caveat about health conditions regarding trick candles.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more thorough and systematically complete analysis of both scenarios, covering more ethical dimensions including legal context, harm to vulnerable populations, and consent considerations.\",\n  \"a_strengths\": \"Response A offers more detailed reasoning for each scenario, explicitly addresses multiple ethical principles (public decency, harm, consent, legal consensus), and draws a clear comparative conclusion that directly answers the question about which scenario involves moral wrongdoing.\",\n  \"b_strengths\": \"Response B is more concise and introduces a useful point about the 'social contract' and frames the schoolyard nudity as 'involuntary sexual exposure,' which adds a dimension not explicitly named in Response A; it also notes the caveat about health conditions regarding trick candles.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:14Z"
+  },
+  {
+    "question_id": "nf_018",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides slightly more complete ethical analysis by explicitly invoking the principle of non-maleficence and discussing the duty of care toward dependent animals, offering a more thorough logical framework.",
+    "a_strengths": "Response A explicitly names and applies ethical principles (non-maleficence, duty of care, beneficence), provides a more structured comparative analysis, and addresses the masking of serious conditions as an additional harm consideration.",
+    "b_strengths": "Response B is concise and clear, mentions the specific mechanism of harm (differences in metabolism and dosing between humans and animals), and reaches the same accurate conclusions without unnecessary complexity.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides slightly more complete ethical analysis by explicitly invoking the principle of non-maleficence and discussing the duty of care toward dependent animals, offering a more thorough logical framework.\",\n  \"a_strengths\": \"Response A explicitly names and applies ethical principles (non-maleficence, duty of care, beneficence), provides a more structured comparative analysis, and addresses the masking of serious conditions as an additional harm consideration.\",\n  \"b_strengths\": \"Response B is concise and clear, mentions the specific mechanism of harm (differences in metabolism and dosing between humans and animals), and reaches the same accurate conclusions without unnecessary complexity.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:14Z"
+  },
+  {
+    "question_id": "nf_020",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides a more thorough and multi-dimensional analysis of the ethical considerations, including rule of law concerns, distributive justice, democratic legitimacy, and the tension between consequentialist and deontological frameworks.",
+    "a_strengths": "Response A covers a broader range of ethical considerations including legal certainty, minority rights, judicial legitimacy, and the tension between utilitarian and deontological approaches; it also explicitly connects Posner's pragmatism to philosophical traditions and notes the need for constraints on efficiency-based reasoning.",
+    "b_strengths": "Response B is more concise and clearly focused, accurately identifying the economic efficiency/wealth maximization ground and raising the key ethical concern about non-economic values being marginalized; it is direct and avoids redundancy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides a more thorough and multi-dimensional analysis of the ethical considerations, including rule of law concerns, distributive justice, democratic legitimacy, and the tension between consequentialist and deontological frameworks.\",\n  \"a_strengths\": \"Response A covers a broader range of ethical considerations including legal certainty, minority rights, judicial legitimacy, and the tension between utilitarian and deontological approaches; it also explicitly connects Posner's pragmatism to philosophical traditions and notes the need for constraints on efficiency-based reasoning.\",\n  \"b_strengths\": \"Response B is more concise and clearly focused, accurately identifying the economic efficiency/wealth maximization ground and raising the key ethical concern about non-economic values being marginalized; it is direct and avoids redundancy.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:17Z"
+  },
+  {
+    "question_id": "nf_019",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B is more complete, identifying multiple distinct misunderstandings (linearity, wholesale replacement of status, and prescriptive vs. descriptive intent) and covering more ethical dimensions including community/individualism tensions, whereas Response A focuses primarily on one misunderstanding and one ethical concern.",
+    "a_strengths": "Response A provides a more focused and coherent argument about the core misunderstanding, with a particularly sharp analysis of how contractual freedom can mask coercive power dynamics, and correctly emphasizes Maine's descriptive rather than prescriptive intent in a well-integrated way.",
+    "b_strengths": "Response B identifies a broader range of misunderstandings, correctly notes that status persists in modern societies (family law, citizenship), covers more ethical dimensions including community versus individualism, and more thoroughly addresses the question's multiple components including the reasoning behind misunderstandings.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B is more complete, identifying multiple distinct misunderstandings (linearity, wholesale replacement of status, and prescriptive vs. descriptive intent) and covering more ethical dimensions including community/individualism tensions, whereas Response A focuses primarily on one misunderstanding and one ethical concern.\",\n  \"a_strengths\": \"Response A provides a more focused and coherent argument about the core misunderstanding, with a particularly sharp analysis of how contractual freedom can mask coercive power dynamics, and correctly emphasizes Maine's descriptive rather than prescriptive intent in a well-integrated way.\",\n  \"b_strengths\": \"Response B identifies a broader range of misunderstandings, correctly notes that status persists in modern societies (family law, citizenship), covers more ethical dimensions including community versus individualism, and more thoroughly addresses the question's multiple components including the reasoning behind misunderstandings.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:17Z"
+  },
+  {
+    "question_id": "nf_021",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete and precise analysis, including the important clarification that 'equally favorable' means no party is worse off than their non-cooperative baseline rather than equal outcomes, and adds the Pareto efficiency concept which strengthens the ethical reasoning.",
+    "a_strengths": "Response A more precisely defines Gauthier's notion of 'equally favorable' agreements, introduces the Pareto efficiency concept, explains the compliance motivation more thoroughly, and provides a more developed critique covering future generations and non-human animals alongside the disabled.",
+    "b_strengths": "Response B is more concise and accessible, covers the essential points accurately, and mentions Gauthier's response to critics about long-term benefits of upholding fair agreements, which adds a dimension of dialectical engagement not fully present in A.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete and precise analysis, including the important clarification that 'equally favorable' means no party is worse off than their non-cooperative baseline rather than equal outcomes, and adds the Pareto efficiency concept which strengthens the ethical reasoning.\",\n  \"a_strengths\": \"Response A more precisely defines Gauthier's notion of 'equally favorable' agreements, introduces the Pareto efficiency concept, explains the compliance motivation more thoroughly, and provides a more developed critique covering future generations and non-human animals alongside the disabled.\",\n  \"b_strengths\": \"Response B is more concise and accessible, covers the essential points accurately, and mentions Gauthier's response to critics about long-term benefits of upholding fair agreements, which adds a dimension of dialectical engagement not fully present in A.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:19Z"
+  },
+  {
+    "question_id": "nf_022",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides slightly more complete analysis by more clearly distinguishing and labeling the competing ethical frameworks (shareholder primacy vs. stakeholder theory) and articulating the consequentialist reasoning behind Friedman's position more explicitly.",
+    "a_strengths": "Response A more systematically breaks down Friedman's reasoning into distinct premises, explicitly names and contrasts the two ethical frameworks, and provides a clearer consequentialist justification for Friedman's view alongside the property-rights argument.",
+    "b_strengths": "Response B is accurate and covers the same core content in a more concise, readable form; it also includes the useful detail of 'taxation without representation' framing and explicitly mentions the political process subversion angle, which adds nuance to Friedman's argument.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides slightly more complete analysis by more clearly distinguishing and labeling the competing ethical frameworks (shareholder primacy vs. stakeholder theory) and articulating the consequentialist reasoning behind Friedman's position more explicitly.\",\n  \"a_strengths\": \"Response A more systematically breaks down Friedman's reasoning into distinct premises, explicitly names and contrasts the two ethical frameworks, and provides a clearer consequentialist justification for Friedman's view alongside the property-rights argument.\",\n  \"b_strengths\": \"Response B is accurate and covers the same core content in a more concise, readable form; it also includes the useful detail of 'taxation without representation' framing and explicitly mentions the political process subversion angle, which adds nuance to Friedman's argument.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:20Z"
+  },
+  {
+    "question_id": "nf_023",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more completely addresses the question by covering additional ethical dimensions (autonomy vs. paternalism, the CBT psychological framework) and explicitly discussing societal-level implications, making it more thorough in its analysis.",
+    "a_strengths": "Response A provides a concise, well-integrated discussion that smoothly connects the ethical frameworks (consequentialist and deontological) to the specific argument, and accurately uses the term 'vindictive protectiveness' which is central to Lukianoff and Haidt's thesis.",
+    "b_strengths": "Response B covers more ground by introducing the CBT/psychological resilience framework that is central to Lukianoff and Haidt's actual argument, explicitly addresses autonomy versus paternalism as a distinct ethical consideration, and discusses both individual and societal implications, making it more complete overall.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more completely addresses the question by covering additional ethical dimensions (autonomy vs. paternalism, the CBT psychological framework) and explicitly discussing societal-level implications, making it more thorough in its analysis.\",\n  \"a_strengths\": \"Response A provides a concise, well-integrated discussion that smoothly connects the ethical frameworks (consequentialist and deontological) to the specific argument, and accurately uses the term 'vindictive protectiveness' which is central to Lukianoff and Haidt's thesis.\",\n  \"b_strengths\": \"Response B covers more ground by introducing the CBT/psychological resilience framework that is central to Lukianoff and Haidt's actual argument, explicitly addresses autonomy versus paternalism as a distinct ethical consideration, and discusses both individual and societal implications, making it more complete overall.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:22Z"
+  },
+  {
+    "question_id": "nf_024",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A more accurately attributes the critique to Robin West specifically and provides more complete analysis of the distinct ethical tensions, including the 'thin' conception of the self and the scalar nature of consent.",
+    "a_strengths": "Response A correctly names Robin West as the scholar behind this critique, engages more precisely with the philosophical underpinnings (liberal negative liberty, abstract conception of the self), and systematically addresses multiple distinct ethical considerations including autonomy vs. vulnerability, the nature of harm, and the limits of consent as a binary vs. scalar concept.",
+    "b_strengths": "Response B is more concise and accessible, captures the core argument accurately, and raises the important practical tension between avoiding paternalism and acknowledging harm, though it does so without the same depth or scholarly attribution.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A more accurately attributes the critique to Robin West specifically and provides more complete analysis of the distinct ethical tensions, including the 'thin' conception of the self and the scalar nature of consent.\",\n  \"a_strengths\": \"Response A correctly names Robin West as the scholar behind this critique, engages more precisely with the philosophical underpinnings (liberal negative liberty, abstract conception of the self), and systematically addresses multiple distinct ethical considerations including autonomy vs. vulnerability, the nature of harm, and the limits of consent as a binary vs. scalar concept.\",\n  \"b_strengths\": \"Response B is more concise and accessible, captures the core argument accurately, and raises the important practical tension between avoiding paternalism and acknowledging harm, though it does so without the same depth or scholarly attribution.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:22Z"
+  },
+  {
+    "question_id": "nf_025",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete and nuanced analysis, adding substantive concepts like the 'responsibility gap' in algorithmic accountability, the 'black box' opacity problem, the meaning of work, and the commodification of personal identity, which deepen the ethical reasoning beyond what Response A covers.",
+    "a_strengths": "Response A is concise and clearly articulates the core ethical principles (autonomy, fairness, justice) with accurate reasoning, and effectively summarizes the central tension between innovation/profit and human values in a digestible way.",
+    "b_strengths": "Response B introduces additional ethical dimensions not present in A, such as the responsibility gap among developers/deployers/users, explainable AI as an ethical requirement, distributive justice and wealth concentration, the societal meaning of work, and the interconnectedness of the three issue areas, resulting in more thorough and better-supported analysis.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete and nuanced analysis, adding substantive concepts like the 'responsibility gap' in algorithmic accountability, the 'black box' opacity problem, the meaning of work, and the commodification of personal identity, which deepen the ethical reasoning beyond what Response A covers.\",\n  \"a_strengths\": \"Response A is concise and clearly articulates the core ethical principles (autonomy, fairness, justice) with accurate reasoning, and effectively summarizes the central tension between innovation/profit and human values in a digestible way.\",\n  \"b_strengths\": \"Response B introduces additional ethical dimensions not present in A, such as the responsibility gap among developers/deployers/users, explainable AI as an ethical requirement, distributive justice and wealth concentration, the societal meaning of work, and the interconnectedness of the three issue areas, resulting in more thorough and better-supported analysis.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:25Z"
+  },
+  {
+    "question_id": "nf_026",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A focuses more precisely on a single, well-developed argument (cross-cultural consistency) and explains why it is the strongest, while Response B conflates multiple arguments without fully developing any one of them.",
+    "a_strengths": "Response A identifies a specific, named argument, develops it with supporting reasoning from anthropology and philosophy, and explains why it is particularly effective against relativism's core empirical premise of radical moral incommensurability. It also addresses the ethnocentrism objection directly.",
+    "b_strengths": "Response B raises the important self-refutation argument (that relativists implicitly appeal to universal standards) and the pragmatic argument about paralysis of international law, both of which are legitimate and compelling points that A omits. It is also more concise.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A focuses more precisely on a single, well-developed argument (cross-cultural consistency) and explains why it is the strongest, while Response B conflates multiple arguments without fully developing any one of them.\",\n  \"a_strengths\": \"Response A identifies a specific, named argument, develops it with supporting reasoning from anthropology and philosophy, and explains why it is particularly effective against relativism's core empirical premise of radical moral incommensurability. It also addresses the ethnocentrism objection directly.\",\n  \"b_strengths\": \"Response B raises the important self-refutation argument (that relativists implicitly appeal to universal standards) and the pragmatic argument about paralysis of international law, both of which are legitimate and compelling points that A omits. It is also more concise.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:25Z"
+  },
+  {
+    "question_id": "nf_028",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A covers more ethical frameworks and concepts (stakeholder theory, CSR, social contract, triple bottom line, virtue ethics) with greater completeness and depth than Response B.",
+    "a_strengths": "Response A introduces additional ethical frameworks including virtue ethics, stakeholder theory, CSR, the social contract view, and the triple bottom line, providing a more comprehensive and multi-dimensional analysis of the ethical considerations involved.",
+    "b_strengths": "Response B presents a coherent and well-integrated argument that flows naturally, connecting the dual nature of business impact to ethical frameworks concisely, and introduces the concept of proactive stewardship effectively.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A covers more ethical frameworks and concepts (stakeholder theory, CSR, social contract, triple bottom line, virtue ethics) with greater completeness and depth than Response B.\",\n  \"a_strengths\": \"Response A introduces additional ethical frameworks including virtue ethics, stakeholder theory, CSR, the social contract view, and the triple bottom line, providing a more comprehensive and multi-dimensional analysis of the ethical considerations involved.\",\n  \"b_strengths\": \"Response B presents a coherent and well-integrated argument that flows naturally, connecting the dual nature of business impact to ethical frameworks concisely, and introduces the concept of proactive stewardship effectively.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:26Z"
+  },
+  {
+    "question_id": "nf_027",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more accurately identifies and elaborates de Marneffe's specific argument that prohibition is autonomy-preserving rather than autonomy-violating, which is his central response to the paternalism objection, while Response A leads with a harm-to-others argument that is less central to de Marneffe's actual anti-paternalism strategy.",
+    "a_strengths": "Response A correctly notes that de Marneffe appeals to harms to third parties and social costs, and briefly mentions the autonomy-undermining argument, providing a broader overview of his position.",
+    "b_strengths": "Response B more accurately focuses on de Marneffe's core philosophical response—that prohibition is justified because addiction undermines rational autonomy, making prohibition autonomy-enhancing rather than autonomy-violating—and provides more detailed reasoning about why this reframing addresses the paternalism objection within a liberal framework.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more accurately identifies and elaborates de Marneffe's specific argument that prohibition is autonomy-preserving rather than autonomy-violating, which is his central response to the paternalism objection, while Response A leads with a harm-to-others argument that is less central to de Marneffe's actual anti-paternalism strategy.\",\n  \"a_strengths\": \"Response A correctly notes that de Marneffe appeals to harms to third parties and social costs, and briefly mentions the autonomy-undermining argument, providing a broader overview of his position.\",\n  \"b_strengths\": \"Response B more accurately focuses on de Marneffe's core philosophical response—that prohibition is justified because addiction undermines rational autonomy, making prohibition autonomy-enhancing rather than autonomy-violating—and provides more detailed reasoning about why this reframing addresses the paternalism objection within a liberal framework.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:27Z"
+  },
+  {
+    "question_id": "nf_029",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete coverage of the question by explicitly grounding the analysis in Epicurean ethical foundations, citing the Principal Doctrines, and offering concrete examples of unjust laws, making the reasoning more fully developed.",
+    "a_strengths": "Response A is concise and accurate, correctly identifying the social contract basis of Epicurean justice and the role of ataraxia, and it draws a clear connection to consequentialist/utilitarian reasoning without errors.",
+    "b_strengths": "Response B more thoroughly addresses the ethical considerations asked for in the question, includes a direct citation from the Principal Doctrines to support its claims, introduces the additional concept of aponia, provides concrete examples of unjust laws, and explicitly discusses the context-dependence and fear-reduction dimensions of Epicurean justice, making the analysis more complete and better supported.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete coverage of the question by explicitly grounding the analysis in Epicurean ethical foundations, citing the Principal Doctrines, and offering concrete examples of unjust laws, making the reasoning more fully developed.\",\n  \"a_strengths\": \"Response A is concise and accurate, correctly identifying the social contract basis of Epicurean justice and the role of ataraxia, and it draws a clear connection to consequentialist/utilitarian reasoning without errors.\",\n  \"b_strengths\": \"Response B more thoroughly addresses the ethical considerations asked for in the question, includes a direct citation from the Principal Doctrines to support its claims, introduces the additional concept of aponia, provides concrete examples of unjust laws, and explicitly discusses the context-dependence and fear-reduction dimensions of Epicurean justice, making the analysis more complete and better supported.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:30Z"
+  },
+  {
+    "question_id": "nf_030",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete and detailed coverage of the criteria for correctness, verification methods, and the underlying logic, making it more thorough in addressing the general concept.",
+    "a_strengths": "Response A covers multiple dimensions of correctness (factual accuracy, logical consistency, empirical support, contextual appropriateness) and explains verification methods in depth, offering a more complete treatment of the topic.",
+    "b_strengths": "Response B appropriately acknowledges the ambiguity in the question and distinguishes between different contexts (logic/mathematics vs. everyday language), which is a valid and honest approach to an unclear prompt.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete and detailed coverage of the criteria for correctness, verification methods, and the underlying logic, making it more thorough in addressing the general concept.\",\n  \"a_strengths\": \"Response A covers multiple dimensions of correctness (factual accuracy, logical consistency, empirical support, contextual appropriateness) and explains verification methods in depth, offering a more complete treatment of the topic.\",\n  \"b_strengths\": \"Response B appropriately acknowledges the ambiguity in the question and distinguishes between different contexts (logic/mathematics vs. everyday language), which is a valid and honest approach to an unclear prompt.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:31Z"
+  },
+  {
+    "question_id": "nf_032",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more thorough and systematically supported reasoning for both scenarios, explicitly addressing edge cases and the conditions under which each act would or would not be morally wrong.",
+    "a_strengths": "Response A is concise and clear, correctly identifies Scenario 1 as morally wrong, and briefly acknowledges that Scenario 2 could become wrong under reckless conditions.",
+    "b_strengths": "Response B more thoroughly analyzes both scenarios, explicitly addresses the possibility of consent in Scenario 1 (and why it still doesn't justify the act), more carefully distinguishes between intrinsic and context-dependent wrongs, and provides a clearer comparative conclusion with well-articulated ethical principles.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more thorough and systematically supported reasoning for both scenarios, explicitly addressing edge cases and the conditions under which each act would or would not be morally wrong.\",\n  \"a_strengths\": \"Response A is concise and clear, correctly identifies Scenario 1 as morally wrong, and briefly acknowledges that Scenario 2 could become wrong under reckless conditions.\",\n  \"b_strengths\": \"Response B more thoroughly analyzes both scenarios, explicitly addresses the possibility of consent in Scenario 1 (and why it still doesn't justify the act), more carefully distinguishes between intrinsic and context-dependent wrongs, and provides a clearer comparative conclusion with well-articulated ethical principles.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:32Z"
+  },
+  {
+    "question_id": "nf_031",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage of the ethical considerations, including the fiduciary nature of government power, the pre-political origin of property rights, and the specific limitation on taxation requiring consent, which Response B omits.",
+    "a_strengths": "Response A more thoroughly addresses the ethical dimensions by explaining the fiduciary/trust relationship between government and citizens, the pre-political origin of property rights through labor, and the implication that taxation requires consent of property owners. It also more explicitly enumerates the three deficiencies of the state of nature (lack of known law, lack of impartial judge, lack of enforcement power).",
+    "b_strengths": "Response B is concise and accurate, covering the core argument clearly and efficiently. It correctly identifies the key elements—inconveniences of the state of nature, rational self-interest, social contract, consent, and the right to dissolve tyrannical government—without sacrificing accuracy for brevity.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage of the ethical considerations, including the fiduciary nature of government power, the pre-political origin of property rights, and the specific limitation on taxation requiring consent, which Response B omits.\",\n  \"a_strengths\": \"Response A more thoroughly addresses the ethical dimensions by explaining the fiduciary/trust relationship between government and citizens, the pre-political origin of property rights through labor, and the implication that taxation requires consent of property owners. It also more explicitly enumerates the three deficiencies of the state of nature (lack of known law, lack of impartial judge, lack of enforcement power).\",\n  \"b_strengths\": \"Response B is concise and accurate, covering the core argument clearly and efficiently. It correctly identifies the key elements—inconveniences of the state of nature, rational self-interest, social contract, consent, and the right to dissolve tyrannical government—without sacrificing accuracy for brevity.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:33Z"
+  },
+  {
+    "question_id": "nf_034",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more thorough reasoning by explicitly addressing the question's presupposition that one scenario must contain clear moral wrongdoing, and explains why neither actually does while still ranking them comparatively.",
+    "a_strengths": "Response A is concise and clearly communicates the core ethical analysis without unnecessary complexity, making it accessible and direct.",
+    "b_strengths": "Response B more completely addresses the question's implicit framing, provides more detailed supporting reasoning for each scenario, and explicitly handles the comparative judgment the question demands by acknowledging the presupposition and explaining why neither scenario fits the 'clearly morally wrong' criterion.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more thorough reasoning by explicitly addressing the question's presupposition that one scenario must contain clear moral wrongdoing, and explains why neither actually does while still ranking them comparatively.\",\n  \"a_strengths\": \"Response A is concise and clearly communicates the core ethical analysis without unnecessary complexity, making it accessible and direct.\",\n  \"b_strengths\": \"Response B more completely addresses the question's implicit framing, provides more detailed supporting reasoning for each scenario, and explicitly handles the comparative judgment the question demands by acknowledging the presupposition and explaining why neither scenario fits the 'clearly morally wrong' criterion.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:35Z"
+  },
+  {
+    "question_id": "nf_033",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more thorough analysis of the ethical implications, covering multiple distinct ethical dimensions with greater depth and logical development.",
+    "a_strengths": "Response A more systematically explores multiple ethical dimensions—subjectivity of experience, moral responsibility toward suffering, and foundations of ethical knowledge—and connects each more explicitly to Berkeley's metaphysical premises, providing richer reasoning throughout.",
+    "b_strengths": "Response B is concise and accurate, and it raises a pointed question about whether mind-dependence diminishes the reality of suffering, then answers it with Berkeley's divine framework, showing tight logical integration of metaphysics and ethics in a compact form.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more thorough analysis of the ethical implications, covering multiple distinct ethical dimensions with greater depth and logical development.\",\n  \"a_strengths\": \"Response A more systematically explores multiple ethical dimensions—subjectivity of experience, moral responsibility toward suffering, and foundations of ethical knowledge—and connects each more explicitly to Berkeley's metaphysical premises, providing richer reasoning throughout.\",\n  \"b_strengths\": \"Response B is concise and accurate, and it raises a pointed question about whether mind-dependence diminishes the reality of suffering, then answers it with Berkeley's divine framework, showing tight logical integration of metaphysics and ethics in a compact form.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:36Z"
+  },
+  {
+    "question_id": "nf_035",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more precise articulation of Lee and George's specific philosophical distinctions, particularly the 'person with potential vs. potential person' formulation and the ontological continuity argument, offering deeper analytical coverage of the ethical considerations.",
+    "a_strengths": "Response A presents a clear, concise summary of Lee and George's position and effectively situates it within the broader debate between functionalist and essentialist views of personhood, including a useful note about the implications for infants and cognitively impaired individuals.",
+    "b_strengths": "Response B more accurately captures Lee and George's specific terminology and reasoning, including the 'rational nature as basic natural kind,' the distinction between a potential person and a person with potential, the ontological continuity argument, and the practical ethical implications for abortion and embryo research, providing a more thorough and analytically rigorous treatment of the question.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more precise articulation of Lee and George's specific philosophical distinctions, particularly the 'person with potential vs. potential person' formulation and the ontological continuity argument, offering deeper analytical coverage of the ethical considerations.\",\n  \"a_strengths\": \"Response A presents a clear, concise summary of Lee and George's position and effectively situates it within the broader debate between functionalist and essentialist views of personhood, including a useful note about the implications for infants and cognitively impaired individuals.\",\n  \"b_strengths\": \"Response B more accurately captures Lee and George's specific terminology and reasoning, including the 'rational nature as basic natural kind,' the distinction between a potential person and a person with potential, the ontological continuity argument, and the practical ethical implications for abortion and embryo research, providing a more thorough and analytically rigorous treatment of the question.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:37Z"
+  },
+  {
+    "question_id": "nf_036",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more thorough and complete analysis by explicitly addressing both scenarios with structured reasoning, including the ambiguity of Scenario 2 and why Scenario 1 is the clearer moral violation, while Response A somewhat contradicts itself by suggesting both are wrong but then trying to distinguish them.",
+    "a_strengths": "Response A is more concise and readable, and correctly identifies that both scenarios involve wrongdoing while focusing on the clearer moral violation in Scenario 1.",
+    "b_strengths": "Response B provides more complete ethical analysis with explicit principles (non-maleficence, duty of care), better addresses the ambiguity in Scenario 2 with concrete examples of legitimate forest fires, and more systematically compares the two scenarios with clearer logical structure in its reasoning.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more thorough and complete analysis by explicitly addressing both scenarios with structured reasoning, including the ambiguity of Scenario 2 and why Scenario 1 is the clearer moral violation, while Response A somewhat contradicts itself by suggesting both are wrong but then trying to distinguish them.\",\n  \"a_strengths\": \"Response A is more concise and readable, and correctly identifies that both scenarios involve wrongdoing while focusing on the clearer moral violation in Scenario 1.\",\n  \"b_strengths\": \"Response B provides more complete ethical analysis with explicit principles (non-maleficence, duty of care), better addresses the ambiguity in Scenario 2 with concrete examples of legitimate forest fires, and more systematically compares the two scenarios with clearer logical structure in its reasoning.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:37Z"
+  },
+  {
+    "question_id": "nf_037",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more thorough and complete analysis of each scenario, including additional ethical dimensions such as harm to other candidates and institutional trust violations that strengthen the reasoning.",
+    "a_strengths": "Response A offers more detailed reasoning for each scenario, explicitly identifying multiple ethical dimensions (deception, fairness, harm to other candidates, institutional trust) and systematically comparing the two scenarios with clear logical structure.",
+    "b_strengths": "Response B is concise and accurate, covering the essential points efficiently, and mentions the nuance about potential thoughtlessness in Scenario 2 (if others expected some cookies), which adds a minor but relevant consideration.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more thorough and complete analysis of each scenario, including additional ethical dimensions such as harm to other candidates and institutional trust violations that strengthen the reasoning.\",\n  \"a_strengths\": \"Response A offers more detailed reasoning for each scenario, explicitly identifying multiple ethical dimensions (deception, fairness, harm to other candidates, institutional trust) and systematically comparing the two scenarios with clear logical structure.\",\n  \"b_strengths\": \"Response B is concise and accurate, covering the essential points efficiently, and mentions the nuance about potential thoughtlessness in Scenario 2 (if others expected some cookies), which adds a minor but relevant consideration.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:40Z"
+  },
+  {
+    "question_id": "nf_038",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more developed and specific reasoning across multiple distinct ethical dimensions, including environmental aesthetics and virtue ethics, offering greater analytical depth.",
+    "a_strengths": "Response A covers more distinct ethical domains (moral development, artistic responsibility, environmental ethics), provides more specific examples and philosophical grounding (virtue ethics, censorship debates), and develops each claim with clearer logical structure from premise to conclusion.",
+    "b_strengths": "Response B introduces the important aestheticism versus ethical criticism debate and mentions cultural appropriation and heritage preservation, and it more directly addresses the question's framing about what aesthetics addresses, making it slightly more responsive to the literal question asked.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more developed and specific reasoning across multiple distinct ethical dimensions, including environmental aesthetics and virtue ethics, offering greater analytical depth.\",\n  \"a_strengths\": \"Response A covers more distinct ethical domains (moral development, artistic responsibility, environmental ethics), provides more specific examples and philosophical grounding (virtue ethics, censorship debates), and develops each claim with clearer logical structure from premise to conclusion.\",\n  \"b_strengths\": \"Response B introduces the important aestheticism versus ethical criticism debate and mentions cultural appropriation and heritage preservation, and it more directly addresses the question's framing about what aesthetics addresses, making it slightly more responsive to the literal question asked.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:40Z"
+  },
+  {
+    "question_id": "nf_039",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more precisely captures Moore's distinction between analytic and synthetic propositions, clarifying that 'pleasure is good' is a synthetic claim rather than a definitional identity, which is a more accurate and complete rendering of Moore's position.",
+    "a_strengths": "Response A provides a clear and accessible explanation of the open-question argument and its implications for hedonistic utilitarianism, and it acknowledges difficulties with Moore's view such as how we access non-natural properties and justify moral disagreements.",
+    "b_strengths": "Response B more accurately distinguishes between analytic and synthetic propositions in Moore's framework, introduces the useful concept of the 'isolation test' for identifying intrinsic goods, and more precisely articulates that 'pleasure is good' asserts intrinsic goodness without definitional equivalence, reflecting a deeper engagement with Moore's actual methodology in Principia Ethica.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more precisely captures Moore's distinction between analytic and synthetic propositions, clarifying that 'pleasure is good' is a synthetic claim rather than a definitional identity, which is a more accurate and complete rendering of Moore's position.\",\n  \"a_strengths\": \"Response A provides a clear and accessible explanation of the open-question argument and its implications for hedonistic utilitarianism, and it acknowledges difficulties with Moore's view such as how we access non-natural properties and justify moral disagreements.\",\n  \"b_strengths\": \"Response B more accurately distinguishes between analytic and synthetic propositions in Moore's framework, introduces the useful concept of the 'isolation test' for identifying intrinsic goods, and more precisely articulates that 'pleasure is good' asserts intrinsic goodness without definitional equivalence, reflecting a deeper engagement with Moore's actual methodology in Principia Ethica.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:42Z"
+  },
+  {
+    "question_id": "nf_040",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more accurately interprets Scenario 2 by recognizing that turning toward the mother-in-law could be an attempt to avoid sneezing on others (or reflexive), and better captures the nuance that the intent was to act quickly rather than to direct the sneeze at someone, making its reasoning slightly more complete and accurate.",
+    "a_strengths": "Response A provides more structured analysis of each scenario's potential wrongs and explicitly examines multiple ethical dimensions (privacy, theft, health risk), and acknowledges the 2020 context of heightened health awareness more thoroughly.",
+    "b_strengths": "Response B more accurately notes the ambiguity of the sneezing direction (possibly turning away from others rather than toward them), better captures the involuntary/reflexive nature of the act, and reaches a more logically consistent conclusion without overstating the health risk angle.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more accurately interprets Scenario 2 by recognizing that turning toward the mother-in-law could be an attempt to avoid sneezing on others (or reflexive), and better captures the nuance that the intent was to act quickly rather than to direct the sneeze at someone, making its reasoning slightly more complete and accurate.\",\n  \"a_strengths\": \"Response A provides more structured analysis of each scenario's potential wrongs and explicitly examines multiple ethical dimensions (privacy, theft, health risk), and acknowledges the 2020 context of heightened health awareness more thoroughly.\",\n  \"b_strengths\": \"Response B more accurately notes the ambiguity of the sneezing direction (possibly turning away from others rather than toward them), better captures the involuntary/reflexive nature of the act, and reaches a more logically consistent conclusion without overstating the health risk angle.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:44Z"
+  },
+  {
+    "question_id": "nf_041",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B applies explicit ethical frameworks (utilitarianism, deontology, virtue ethics) and provides more concrete examples (ransomware targeting healthcare), making its reasoning more complete and analytically rigorous.",
+    "a_strengths": "Response A is concise and well-integrated, clearly connecting the ethical tensions between competing values like privacy, security, and innovation in a coherent narrative without fragmentation.",
+    "b_strengths": "Response B covers more ground by explicitly invoking multiple ethical frameworks, discussing financial inclusion more thoroughly, providing specific examples like healthcare ransomware attacks, and addressing regulatory solutions, making it more complete in addressing the question's analytical demands.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B applies explicit ethical frameworks (utilitarianism, deontology, virtue ethics) and provides more concrete examples (ransomware targeting healthcare), making its reasoning more complete and analytically rigorous.\",\n  \"a_strengths\": \"Response A is concise and well-integrated, clearly connecting the ethical tensions between competing values like privacy, security, and innovation in a coherent narrative without fragmentation.\",\n  \"b_strengths\": \"Response B covers more ground by explicitly invoking multiple ethical frameworks, discussing financial inclusion more thoroughly, providing specific examples like healthcare ransomware attacks, and addressing regulatory solutions, making it more complete in addressing the question's analytical demands.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:44Z"
+  },
+  {
+    "question_id": "nf_042",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete and precise analysis by explicitly distinguishing perfect duties from imperfect duties and connecting them to the two types of contradiction, and by more thoroughly grounding the principle in Kant's concept of rational autonomy.",
+    "a_strengths": "Response A explicitly connects the two types of contradiction (conception vs. will) to their respective duty types (perfect vs. imperfect), cites the source text, and develops the underlying rationale of rational autonomy and self-legislation more fully.",
+    "b_strengths": "Response B covers the core concepts accurately and concisely, includes a useful acknowledgment of criticisms of Kant's framework, and presents the material in a clear, readable way without sacrificing accuracy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete and precise analysis by explicitly distinguishing perfect duties from imperfect duties and connecting them to the two types of contradiction, and by more thoroughly grounding the principle in Kant's concept of rational autonomy.\",\n  \"a_strengths\": \"Response A explicitly connects the two types of contradiction (conception vs. will) to their respective duty types (perfect vs. imperfect), cites the source text, and develops the underlying rationale of rational autonomy and self-legislation more fully.\",\n  \"b_strengths\": \"Response B covers the core concepts accurately and concisely, includes a useful acknowledgment of criticisms of Kant's framework, and presents the material in a clear, readable way without sacrificing accuracy.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:45Z"
+  },
+  {
+    "question_id": "nf_043",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage by explicitly distinguishing and explaining both formulations of the categorical imperative with greater precision, including the technical term 'contradiction in conception' applied correctly to each formulation.",
+    "a_strengths": "Response A clearly separates and explains both the universalizability formulation and the humanity-as-end formulation with dedicated reasoning for each, uses precise Kantian terminology accurately, and synthesizes the two arguments to show how they interlock.",
+    "b_strengths": "Response B covers the core Kantian reasoning accurately and concisely, correctly identifies the contradiction in conception and the means-ends violation, and is accessible without sacrificing accuracy, though it treats the two formulations less distinctly.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage by explicitly distinguishing and explaining both formulations of the categorical imperative with greater precision, including the technical term 'contradiction in conception' applied correctly to each formulation.\",\n  \"a_strengths\": \"Response A clearly separates and explains both the universalizability formulation and the humanity-as-end formulation with dedicated reasoning for each, uses precise Kantian terminology accurately, and synthesizes the two arguments to show how they interlock.\",\n  \"b_strengths\": \"Response B covers the core Kantian reasoning accurately and concisely, correctly identifies the contradiction in conception and the means-ends violation, and is accessible without sacrificing accuracy, though it treats the two formulations less distinctly.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:47Z"
+  },
+  {
+    "question_id": "nf_044",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage by explicitly connecting Altman's framework to multiple ethical theories (Kantian, consequentialist, democratic equality) and elaborating on the reasoning behind each, while Response B is more concise but less thorough in its ethical analysis.",
+    "a_strengths": "Response A more thoroughly explores the ethical reasoning by invoking multiple theoretical frameworks (Kantian ethics, consequentialism, democratic ideals of equal citizenship), provides more detailed discussion of the harms involved, and more fully addresses the question's request to discuss relevant ethical considerations and reasoning.",
+    "b_strengths": "Response B is more precise and accurate in its core characterization of Altman's view, correctly identifying 'disrespect' as the key term and emphasizing the distinctive moral harm to dignity and social status; it also presents a cleaner, more focused analysis of the free speech tension without redundancy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage by explicitly connecting Altman's framework to multiple ethical theories (Kantian, consequentialist, democratic equality) and elaborating on the reasoning behind each, while Response B is more concise but less thorough in its ethical analysis.\",\n  \"a_strengths\": \"Response A more thoroughly explores the ethical reasoning by invoking multiple theoretical frameworks (Kantian ethics, consequentialism, democratic ideals of equal citizenship), provides more detailed discussion of the harms involved, and more fully addresses the question's request to discuss relevant ethical considerations and reasoning.\",\n  \"b_strengths\": \"Response B is more precise and accurate in its core characterization of Altman's view, correctly identifying 'disrespect' as the key term and emphasizing the distinctive moral harm to dignity and social status; it also presents a cleaner, more focused analysis of the free speech tension without redundancy.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:49Z"
+  },
+  {
+    "question_id": "nf_046",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "strong",
+    "primary_reason": "Response B correctly identifies specific, real-world examples (ISO 14001 and EMAS) that accurately fill the blanks in the question, while Response A provides vague and arguably incorrect terms ('environmental management systems and corporate environmental responsibility') that don't fit the sentence structure as well.",
+    "a_strengths": "Response A covers stewardship, distributive justice, and virtue ethics with clear prose, and makes a solid general ethical argument about compliance being a minimum standard.",
+    "b_strengths": "Response B accurately identifies ISO 14001 and EMAS as the specific examples requested, introduces additional ethical frameworks including the precautionary principle and intergenerational equity, addresses greenwashing and transparency concerns, and provides more complete and precise reasoning across a broader range of ethical considerations.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response B correctly identifies specific, real-world examples (ISO 14001 and EMAS) that accurately fill the blanks in the question, while Response A provides vague and arguably incorrect terms ('environmental management systems and corporate environmental responsibility') that don't fit the sentence structure as well.\",\n  \"a_strengths\": \"Response A covers stewardship, distributive justice, and virtue ethics with clear prose, and makes a solid general ethical argument about compliance being a minimum standard.\",\n  \"b_strengths\": \"Response B accurately identifies ISO 14001 and EMAS as the specific examples requested, introduces additional ethical frameworks including the precautionary principle and intergenerational equity, addresses greenwashing and transparency concerns, and provides more complete and precise reasoning across a broader range of ethical considerations.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:49Z"
+  },
+  {
+    "question_id": "nf_045",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more detailed reasoning and ethical analysis for each category, including nuances like the distinction between the letter and spirit of the law, the warning against using philanthropy to offset unethical practices, and the ethical dimensions of economic activity such as fair pricing and competition.",
+    "a_strengths": "Response A is concise and accurate, clearly conveying the pyramid structure and the core logic of Carroll's framework, including the bridging role of ethical responsibility between legal compliance and philanthropy.",
+    "b_strengths": "Response B offers deeper ethical analysis for each category, addresses more specific ethical considerations per level, and includes important nuances such as avoiding exploitation in economic activity and ensuring philanthropic sincerity, making it more complete in addressing the ethical reasoning the question asks for.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more detailed reasoning and ethical analysis for each category, including nuances like the distinction between the letter and spirit of the law, the warning against using philanthropy to offset unethical practices, and the ethical dimensions of economic activity such as fair pricing and competition.\",\n  \"a_strengths\": \"Response A is concise and accurate, clearly conveying the pyramid structure and the core logic of Carroll's framework, including the bridging role of ethical responsibility between legal compliance and philanthropy.\",\n  \"b_strengths\": \"Response B offers deeper ethical analysis for each category, addresses more specific ethical considerations per level, and includes important nuances such as avoiding exploitation in economic activity and ensuring philanthropic sincerity, making it more complete in addressing the ethical reasoning the question asks for.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:50Z"
+  },
+  {
+    "question_id": "nf_047",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Response B more accurately recognizes that both scenarios involve clearly morally wrong actions without artificially forcing a single answer, and provides more balanced and complete ethical analysis of both scenarios.",
+    "a_strengths": "Response A provides a structured breakdown of each scenario and attempts to directly answer the question's framing, clearly identifying Scenario 2 as the more unambiguous wrong.",
+    "b_strengths": "Response B correctly identifies both scenarios as morally wrong, avoids the logical error of dismissing Scenario 1's wrongness as merely debatable, and provides more nuanced reasoning about the nature of harm in each case, including specific harms like obesity, dental problems, and disordered eating in Scenario 1.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B more accurately recognizes that both scenarios involve clearly morally wrong actions without artificially forcing a single answer, and provides more balanced and complete ethical analysis of both scenarios.\",\n  \"a_strengths\": \"Response A provides a structured breakdown of each scenario and attempts to directly answer the question's framing, clearly identifying Scenario 2 as the more unambiguous wrong.\",\n  \"b_strengths\": \"Response B correctly identifies both scenarios as morally wrong, avoids the logical error of dismissing Scenario 1's wrongness as merely debatable, and provides more nuanced reasoning about the nature of harm in each case, including specific harms like obesity, dental problems, and disordered eating in Scenario 1.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:52Z"
+  },
+  {
+    "question_id": "nf_048",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage of the question by explicitly addressing the ethical considerations and reasoning in greater depth, including the symbolic role of retribution in maintaining societal trust and the deontological framing of punishment as a categorical imperative.",
+    "a_strengths": "Response A more thoroughly explores the ethical frameworks at play, distinguishes retributive from utilitarian ethics with greater precision, and elaborates on van den Haag's reasoning about moral obligation and the symbolic value of justice, making it more complete in addressing all parts of the question.",
+    "b_strengths": "Response B is more concise and accurately captures the core of van den Haag's argument, and it raises a critical counterpoint about irreversible error and the state's moral authority to execute, which adds a dimension of critical analysis that Response A lacks.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage of the question by explicitly addressing the ethical considerations and reasoning in greater depth, including the symbolic role of retribution in maintaining societal trust and the deontological framing of punishment as a categorical imperative.\",\n  \"a_strengths\": \"Response A more thoroughly explores the ethical frameworks at play, distinguishes retributive from utilitarian ethics with greater precision, and elaborates on van den Haag's reasoning about moral obligation and the symbolic value of justice, making it more complete in addressing all parts of the question.\",\n  \"b_strengths\": \"Response B is more concise and accurately captures the core of van den Haag's argument, and it raises a critical counterpoint about irreversible error and the state's moral authority to execute, which adds a dimension of critical analysis that Response A lacks.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:53Z"
+  },
+  {
+    "question_id": "nf_049",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-simple",
+      "B": "V-natural-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "strong",
+    "primary_reason": "Response B correctly identifies Van den Haag as Ernest van den Haag, the criminologist and death penalty advocate, and provides accurate, detailed ethical analysis of his actual positions, whereas Response A incorrectly interprets 'Van den Haag' as referring to the city of The Hague, making it factually wrong from the outset.",
+    "a_strengths": "Response A provides a coherent discussion of international justice ethics and The Hague's institutions, which would be relevant if the question were about the city, and it engages with cosmopolitan versus realist ethical frameworks competently.",
+    "b_strengths": "Response B correctly identifies the subject as Ernest van den Haag, accurately describes his works and arguments, provides well-supported analysis of his retributive and consequentialist reasoning, and presents substantive countervailing ethical critiques including irreversibility, arbitrariness, and human dignity concerns.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response B correctly identifies Van den Haag as Ernest van den Haag, the criminologist and death penalty advocate, and provides accurate, detailed ethical analysis of his actual positions, whereas Response A incorrectly interprets 'Van den Haag' as referring to the city of The Hague, making it factually wrong from the outset.\",\n  \"a_strengths\": \"Response A provides a coherent discussion of international justice ethics and The Hague's institutions, which would be relevant if the question were about the city, and it engages with cosmopolitan versus realist ethical frameworks competently.\",\n  \"b_strengths\": \"Response B correctly identifies the subject as Ernest van den Haag, accurately describes his works and arguments, provides well-supported analysis of his retributive and consequentialist reasoning, and presents substantive countervailing ethical critiques including irreversibility, arbitrariness, and human dignity concerns.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:54Z"
+  },
+  {
+    "question_id": "nf_050",
+    "stream": "non_factual",
+    "judge_id": "claude",
+    "judge_model": "claude-sonnet-4-6",
+    "mode": "natural",
+    "assignment": {
+      "A": "V-natural-abstract",
+      "B": "V-natural-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-natural-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A more accurately captures Velleman's specific philosophical distinction between autonomy as self-constitution/self-authorship versus autonomy as mere option-expansion, and more thoroughly addresses the ethical implications of treating autonomy instrumentally versus as an end in itself.",
+    "a_strengths": "Response A correctly identifies Velleman's core argument that valuing autonomy through option-maximization treats it instrumentally rather than as an end in itself, introduces the important concept of self-constitution and narrative identity central to Velleman's view, and develops the ethical implications more fully including the risk of autonomy being overridden when treated as merely instrumental.",
+    "b_strengths": "Response B is more concise and readable, and makes a valid point about how maximizing options can paradoxically undermine autonomy by overwhelming patients, which is a relevant consideration, though it frames Velleman's view somewhat loosely as being about 'freedom or opportunity' rather than the more precise distinction between instrumental and intrinsic valuation of autonomy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A more accurately captures Velleman's specific philosophical distinction between autonomy as self-constitution/self-authorship versus autonomy as mere option-expansion, and more thoroughly addresses the ethical implications of treating autonomy instrumentally versus as an end in itself.\",\n  \"a_strengths\": \"Response A correctly identifies Velleman's core argument that valuing autonomy through option-maximization treats it instrumentally rather than as an end in itself, introduces the important concept of self-constitution and narrative identity central to Velleman's view, and develops the ethical implications more fully including the risk of autonomy being overridden when treated as merely instrumental.\",\n  \"b_strengths\": \"Response B is more concise and readable, and makes a valid point about how maximizing options can paradoxically undermine autonomy by overwhelming patients, which is a relevant consideration, though it frames Velleman's view somewhat loosely as being about 'freedom or opportunity' rather than the more precise distinction between instrumental and intrinsic valuation of autonomy.\"\n}",
+    "evaluated_at": "2026-03-25T13:39:55Z"
+  }
+]

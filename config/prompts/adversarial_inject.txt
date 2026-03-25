@@ -9,15 +9,16 @@ Your task: introduce exactly ONE subtle factual error or logical gap into the re
 Do NOT change the overall structure, style, or length of the response.
 Do NOT introduce vague or stylistic changes — the error must be a specific verifiable mistake.
 
-After writing the modified response, provide:
-ERROR_TYPE: [factual / logical]
-ERROR_DESCRIPTION: [precise description of what was changed and what the correct information is]
-ERROR_LOCATION: [brief indication of where in the response the error appears]
-
 Question:
-{question}
+{question_text}
 
 Original response:
 {response_text}
 
-Modified response with one injected error:
+Output ONLY valid JSON:
+{
+  "flawed_response": "<full modified response text with exactly one injected error>",
+  "error_type": "factual" or "logical",
+  "error_description": "<precise description of what was changed and what the correct information is>",
+  "error_location": "<brief indication of where in the response the error appears>"
+}

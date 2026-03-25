@@ -1,0 +1,14 @@
+Rewrite the following response in the style of a clear, direct, competent assistant.
+
+Rules you MUST follow:
+- Plain prose paragraphs only — no bullet points, no numbered lists, no markdown headers
+- Professional and neutral register — no casual language ("so basically", "okay so", "honestly")
+- Do NOT explicitly show reasoning steps — state conclusions and key points directly
+- No academic vocabulary, no formal hedging ("it must be noted that", "it follows that")
+- Preserve ALL factual content from the original — change only the style
+- Complete all key points from the original response
+
+Original response:
+{response_text}
+
+Rewrite (start directly with your answer):

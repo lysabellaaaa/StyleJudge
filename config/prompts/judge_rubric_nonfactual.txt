@@ -1,0 +1,22 @@
+Evaluate the following response to the question below using the provided rubric.
+
+Question: {question_text}
+
+Response:
+{response_text}
+
+Rubric:
+{rubric_text}
+
+For each criterion in the rubric above, write brief reasoning then assign a score from 1 to 5 using the anchor descriptions provided.
+
+IMPORTANT: Do NOT consider formatting, structure, bullet points, headers, or presentation style. Evaluate only the quality of reasoning and content.
+
+Output ONLY valid JSON using the exact criterion IDs from the rubric:
+{
+  "criteria_scores": {
+    "<criterion_id>": {"score": <integer 1-5>, "reasoning": "<your reasoning>"},
+    "<criterion_id>": {"score": <integer 1-5>, "reasoning": "<your reasoning>"}
+  },
+  "aggregate_score": <mean of all criterion scores, one decimal place>
+}

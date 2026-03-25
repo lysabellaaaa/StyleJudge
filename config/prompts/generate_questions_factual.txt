@@ -1,0 +1,18 @@
+Generate 10 factual questions suitable for testing an LLM's knowledge and reasoning ability.
+
+Requirements:
+- Cover diverse topics: science, history, economics, medicine, technology, logic
+- Each question must require a substantive answer covering 3-5 distinct key points
+- Medium difficulty: a thorough but slightly incomplete response should score approximately 3 out of 5
+- Avoid questions with single-sentence correct answers
+- Avoid questions that are purely definitional ("What is X?") — prefer questions that require explanation of mechanisms, causes, or consequences
+
+Output ONLY a JSON array with no preamble or explanation:
+[
+  {
+    "question_id": "fq_001",
+    "topic": "topic area",
+    "question_text": "the full question",
+    "expected_points": ["key point 1", "key point 2", "key point 3", "key point 4"]
+  }
+]

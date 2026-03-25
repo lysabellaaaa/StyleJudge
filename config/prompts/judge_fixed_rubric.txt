@@ -22,7 +22,7 @@ Now read the question and response, then complete your evaluation using the thre
 End with EXACTLY: Score: X
 
 Question:
-{question}
+{question_text}
 
 Response to evaluate:
 {response_text}

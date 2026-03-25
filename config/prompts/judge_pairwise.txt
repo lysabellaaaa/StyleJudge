@@ -1,0 +1,29 @@
+You will read two responses to the same question and decide which you prefer.
+
+Question: {question_text}
+
+Response A:
+{response_a}
+
+---
+
+Response B:
+{response_b}
+
+---
+
+Compare the two responses on these criteria only:
+- Accuracy: which response contains more correct and complete factual or logical claims?
+- Reasoning quality: which response provides better-supported reasoning or analysis?
+- Completeness: which response addresses more of what the question asks?
+
+IMPORTANT: Do NOT let formatting, structure, bullet points, headers, or presentation style influence your preference. A plain paragraph response that is more accurate and complete should be preferred over a heavily formatted one that is less so.
+
+Output ONLY valid JSON:
+{
+  "preferred": "A" or "B",
+  "preference_strength": "strong" or "slight",
+  "primary_reason": "<one sentence explaining the decisive difference>",
+  "a_strengths": "<what Response A does better>",
+  "b_strengths": "<what Response B does better>"
+}

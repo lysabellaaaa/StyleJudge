@@ -1,0 +1,71 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python*)",
+      "Bash(pip install*)",
+      "Bash(pip show*)",
+      "Bash(pip list*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add src/* data/* results/* config/prompts/* scripts/* tests/* state/* CLAUDE.md requirements.txt .gitignore config/experiment.yaml)",
+      "Bash(git commit*)",
+      "Bash(git push)",
+      "Bash(ls*)",
+      "Bash(cat src/*)",
+      "Bash(cat data/*)",
+      "Bash(cat results/*)",
+      "Bash(cat config/experiment.yaml)",
+      "Bash(cat CLAUDE.md)",
+      "Bash(head*)",
+      "Bash(tail*)",
+      "Bash(mkdir -p*)",
+      "Bash(cp src/* src/*)",
+      "Bash(mv data/* data/*)",
+      "Bash(mv results/* results/*)",
+      "Bash(grep*)",
+      "Bash(find . -name*)",
+      "Bash(wc*)",
+      "Bash(echo*)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(rm -r*)",
+      "Bash(git reset --hard*)",
+      "Bash(git push --force*)",
+      "Bash(git checkout -- *)",
+      "Bash(git clean -f*)",
+      "Bash(cat config/api_keys.env)",
+      "Bash(cat config/*.env)",
+      "Bash(cp config/api_keys.env*)",
+      "Bash(git add config/api_keys.env)",
+      "Bash(git add config/*.env)",
+      "Bash(sudo *)",
+      "Bash(chmod 777*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date -u +%Y-%m-%dT%H:%M:%SZ)] TOOL:Bash\" >> state/tool_log.txt 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date -u +%Y-%m-%dT%H:%M:%SZ)] SESSION_STOP\" >> state/tool_log.txt 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

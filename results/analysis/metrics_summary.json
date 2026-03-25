@@ -1,421 +1,315 @@
 {
-  "sbs_matrix": [
-    {
-      "judge_model": "glm5",
-      "domain": "ethical_dilemma",
-      "sbs": -1.0,
-      "mean_l4": 2.6667,
-      "mean_l2": 3.6667,
-      "cohens_d": -1.0954,
-      "ci_lower": -2.0,
-      "ci_upper": 0.3333,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "glm5",
-      "domain": "factual_qa",
-      "sbs": -2.6667,
-      "mean_l4": 2.0,
-      "mean_l2": 4.6667,
-      "cohens_d": -6.532,
-      "ci_lower": -3.0,
-      "ci_upper": -2.0,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "glm5",
-      "domain": "welfare_reasoning",
-      "sbs": -1.75,
-      "mean_l4": 2.5,
-      "mean_l2": 4.25,
-      "cohens_d": -3.2404,
-      "ci_lower": -2.5,
-      "ci_upper": -1.25,
-      "n_l4": 4,
-      "n_l2": 4
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "ethical_dilemma",
-      "sbs": -1.0,
-      "mean_l4": 4.0,
-      "mean_l2": 5.0,
-      "cohens_d": -1.4142,
-      "ci_lower": -2.0,
-      "ci_upper": 0.0,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "factual_qa",
-      "sbs": -2.0,
-      "mean_l4": 3.0,
-      "mean_l2": 5.0,
-      "cohens_d": NaN,
-      "ci_lower": -2.0,
-      "ci_upper": -2.0,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "welfare_reasoning",
-      "sbs": -0.75,
-      "mean_l4": 4.25,
-      "mean_l2": 5.0,
-      "cohens_d": -2.1213,
-      "ci_lower": -1.0,
-      "ci_upper": -0.25,
-      "n_l4": 4,
-      "n_l2": 4
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "ethical_dilemma",
-      "sbs": -0.6667,
-      "mean_l4": 4.0,
-      "mean_l2": 4.6667,
-      "cohens_d": -1.633,
-      "ci_lower": -1.0,
-      "ci_upper": 0.0,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "factual_qa",
-      "sbs": -0.6667,
-      "mean_l4": 4.0,
-      "mean_l2": 4.6667,
-      "cohens_d": -1.633,
-      "ci_lower": -1.0,
-      "ci_upper": 0.0,
-      "n_l4": 3,
-      "n_l2": 3
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "welfare_reasoning",
-      "sbs": -0.25,
-      "mean_l4": 4.0,
-      "mean_l2": 4.25,
-      "cohens_d": -0.7071,
-      "ci_lower": -0.75,
-      "ci_upper": 0.0,
-      "n_l4": 4,
-      "n_l2": 4
-    }
-  ],
-  "anova": [
-    {
-      "judge_model": "glm5",
-      "domain": "all",
-      "f_statistic": 36.45,
-      "p_value": 0.0,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 10,
-        "L3": 0,
-        "L4": 10
+  "generated_at": "2026-03-25T15:08:40Z",
+  "n_questions": 100,
+  "sbs_rubric": {
+    "claude": {
+      "artificial": {
+        "non_factual": {
+          "n_simple": 48,
+          "n_abstract": 49,
+          "mean_simple": 3.096,
+          "mean_abstract": 3.42,
+          "sbs": 0.325,
+          "cohens_d": 0.672,
+          "ci_lower": 0.12,
+          "ci_upper": 0.517
+        },
+        "factual": {
+          "n_simple": 49,
+          "n_abstract": 48,
+          "mean_simple": 4.4,
+          "mean_abstract": 4.602,
+          "sbs": 0.202,
+          "cohens_d": 0.371,
+          "ci_lower": 0.005,
+          "ci_upper": 0.435
+        },
+        "overall": {
+          "n_simple": 97,
+          "n_abstract": 97,
+          "mean_simple": 3.755,
+          "mean_abstract": 4.005,
+          "sbs": 0.251,
+          "cohens_d": 0.31,
+          "ci_lower": 0.026,
+          "ci_upper": 0.478
+        }
+      },
+      "natural": {
+        "non_factual": {
+          "n_simple": 42,
+          "n_abstract": 40,
+          "mean_simple": 3.224,
+          "mean_abstract": 3.455,
+          "sbs": 0.231,
+          "cohens_d": 0.437,
+          "ci_lower": -0.001,
+          "ci_upper": 0.456
+        },
+        "factual": {
+          "n_simple": 50,
+          "n_abstract": 48,
+          "mean_simple": 4.698,
+          "mean_abstract": 4.758,
+          "sbs": 0.06,
+          "cohens_d": 0.151,
+          "ci_lower": -0.092,
+          "ci_upper": 0.214
+        },
+        "overall": {
+          "n_simple": 92,
+          "n_abstract": 88,
+          "mean_simple": 4.025,
+          "mean_abstract": 4.166,
+          "sbs": 0.141,
+          "cohens_d": 0.169,
+          "ci_lower": -0.098,
+          "ci_upper": 0.382
+        }
       }
     },
-    {
-      "judge_model": "glm5",
-      "domain": "ethical_dilemma",
-      "f_statistic": 1.8,
-      "p_value": 0.2508,
-      "significant": false,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
+    "gpt4o": {
+      "artificial": {
+        "non_factual": {
+          "n_simple": 10,
+          "n_abstract": 8,
+          "mean_simple": 4.4,
+          "mean_abstract": 4.8,
+          "sbs": 0.4,
+          "cohens_d": 0.457,
+          "ci_lower": -0.29,
+          "ci_upper": 1.22
+        },
+        "factual": {
+          "n_simple": 15,
+          "n_abstract": 12,
+          "mean_simple": 4.567,
+          "mean_abstract": 4.425,
+          "sbs": -0.142,
+          "cohens_d": -0.155,
+          "ci_lower": -0.875,
+          "ci_upper": 0.453
+        },
+        "overall": {
+          "n_simple": 25,
+          "n_abstract": 20,
+          "mean_simple": 4.5,
+          "mean_abstract": 4.575,
+          "sbs": 0.075,
+          "cohens_d": 0.084,
+          "ci_lower": -0.426,
+          "ci_upper": 0.565
+        }
+      },
+      "natural": {
+        "overall": {
+          "n_simple": 0,
+          "n_abstract": 0,
+          "mean_simple": 0.0,
+          "mean_abstract": 0.0,
+          "sbs": null,
+          "cohens_d": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
       }
     },
-    {
-      "judge_model": "glm5",
-      "domain": "factual_qa",
-      "f_statistic": 64.0,
-      "p_value": 0.0013,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
-      }
-    },
-    {
-      "judge_model": "glm5",
-      "domain": "welfare_reasoning",
-      "f_statistic": 21.0,
-      "p_value": 0.0038,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 4,
-        "L3": 0,
-        "L4": 4
-      }
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "all",
-      "f_statistic": 23.1429,
-      "p_value": 0.0001,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 10,
-        "L3": 0,
-        "L4": 10
-      }
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "ethical_dilemma",
-      "f_statistic": 3.0,
-      "p_value": 0.1583,
-      "significant": false,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
-      }
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "factual_qa",
-      "f_statistic": Infinity,
-      "p_value": 0.0,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
-      }
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "welfare_reasoning",
-      "f_statistic": 9.0,
-      "p_value": 0.024,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 4,
-        "L3": 0,
-        "L4": 4
-      }
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "all",
-      "f_statistic": 9.0,
-      "p_value": 0.0077,
-      "significant": true,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 10,
-        "L3": 0,
-        "L4": 10
-      }
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "ethical_dilemma",
-      "f_statistic": 4.0,
-      "p_value": 0.1161,
-      "significant": false,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
-      }
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "factual_qa",
-      "f_statistic": 4.0,
-      "p_value": 0.1161,
-      "significant": false,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 3,
-        "L3": 0,
-        "L4": 3
-      }
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "welfare_reasoning",
-      "f_statistic": 1.0,
-      "p_value": 0.3559,
-      "significant": false,
-      "group_sizes": {
-        "L1": 0,
-        "L2": 4,
-        "L3": 0,
-        "L4": 4
+    "llama70b": {
+      "artificial": {
+        "non_factual": {
+          "n_simple": 3,
+          "n_abstract": 2,
+          "mean_simple": 5.0,
+          "mean_abstract": 5.0,
+          "sbs": 0.0,
+          "cohens_d": NaN,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "factual": {
+          "n_simple": 35,
+          "n_abstract": 23,
+          "mean_simple": 4.843,
+          "mean_abstract": 4.774,
+          "sbs": -0.069,
+          "cohens_d": -0.161,
+          "ci_lower": -0.302,
+          "ci_upper": 0.138
+        },
+        "overall": {
+          "n_simple": 38,
+          "n_abstract": 25,
+          "mean_simple": 4.855,
+          "mean_abstract": 4.792,
+          "sbs": -0.063,
+          "cohens_d": -0.153,
+          "ci_lower": -0.277,
+          "ci_upper": 0.15
+        }
+      },
+      "natural": {
+        "non_factual": {
+          "n_simple": 1,
+          "n_abstract": 0,
+          "mean_simple": 5.0,
+          "mean_abstract": 0.0,
+          "sbs": null,
+          "cohens_d": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        "factual": {
+          "n_simple": 3,
+          "n_abstract": 0,
+          "mean_simple": 5.0,
+          "mean_abstract": 0.0,
+          "sbs": null,
+          "cohens_d": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        "overall": {
+          "n_simple": 4,
+          "n_abstract": 0,
+          "mean_simple": 5.0,
+          "mean_abstract": 0.0,
+          "sbs": null,
+          "cohens_d": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
       }
     }
-  ],
-  "pearson": [
-    {
-      "judge_model": "glm5",
-      "correlation": -0.411,
-      "p_value": 0.037,
-      "n": 26,
-      "interpretation": "Structure Index negatively correlated with score"
-    },
-    {
-      "judge_model": "gpt4o",
-      "correlation": -0.5954,
-      "p_value": 0.0013,
-      "n": 26,
-      "interpretation": "Structure Index negatively correlated with score"
-    },
-    {
-      "judge_model": "llama70b",
-      "correlation": -0.5369,
-      "p_value": 0.0047,
-      "n": 26,
-      "interpretation": "Structure Index negatively correlated with score"
-    }
-  ],
-  "edr_by_formality": {
-    "L4": 16.7
   },
-  "fpr_by_formality": {
-    "L2": 0.0,
-    "L4": 23.3
-  },
-  "effect_decomposition": [
-    {
-      "judge_model": "glm5",
-      "domain": "all",
-      "sbs_correct": -1.8,
-      "sbs_adversarial": -0.7,
-      "n_correct": 20,
-      "n_adversarial": 6,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
+  "pairwise_stats": {
+    "claude": {
+      "artificial": {
+        "by_stream": {
+          "factual": {
+            "V-simple": 11,
+            "V-abstract": 46,
+            "V-natural-simple": 0,
+            "V-natural-abstract": 0,
+            "total": 57
+          },
+          "non_factual": {
+            "V-simple": 15,
+            "V-abstract": 35,
+            "V-natural-simple": 0,
+            "V-natural-abstract": 0,
+            "total": 50
+          }
+        },
+        "overall": {
+          "V-simple": 26,
+          "V-abstract": 81,
+          "V-natural-simple": 0,
+          "V-natural-abstract": 0,
+          "total": 107
+        },
+        "abstract_pref_rate": 0.757
+      },
+      "natural": {
+        "by_stream": {
+          "factual": {
+            "V-simple": 0,
+            "V-abstract": 0,
+            "V-natural-simple": 7,
+            "V-natural-abstract": 41,
+            "total": 48
+          },
+          "non_factual": {
+            "V-simple": 0,
+            "V-abstract": 0,
+            "V-natural-simple": 4,
+            "V-natural-abstract": 36,
+            "total": 40
+          }
+        },
+        "overall": {
+          "V-simple": 0,
+          "V-abstract": 0,
+          "V-natural-simple": 11,
+          "V-natural-abstract": 77,
+          "total": 88
+        },
+        "abstract_pref_rate": 0.875
+      }
     },
-    {
-      "judge_model": "glm5",
-      "domain": "ethical_dilemma",
-      "sbs_correct": -1.0,
-      "sbs_adversarial": null,
-      "n_correct": 6,
-      "n_adversarial": 0,
-      "interpretation": "INSUFFICIENT_DATA"
-    },
-    {
-      "judge_model": "glm5",
-      "domain": "factual_qa",
-      "sbs_correct": -2.6667,
-      "sbs_adversarial": 0.3333,
-      "n_correct": 6,
-      "n_adversarial": 2,
-      "interpretation": "UNCLEAR: no strong pattern"
-    },
-    {
-      "judge_model": "glm5",
-      "domain": "welfare_reasoning",
-      "sbs_correct": -1.75,
-      "sbs_adversarial": -1.5,
-      "n_correct": 8,
-      "n_adversarial": 4,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "all",
-      "sbs_correct": -1.2,
-      "sbs_adversarial": -0.3333,
-      "n_correct": 20,
-      "n_adversarial": 6,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "ethical_dilemma",
-      "sbs_correct": -1.0,
-      "sbs_adversarial": null,
-      "n_correct": 6,
-      "n_adversarial": 0,
-      "interpretation": "INSUFFICIENT_DATA"
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "factual_qa",
-      "sbs_correct": -2.0,
-      "sbs_adversarial": 0.0,
-      "n_correct": 6,
-      "n_adversarial": 2,
-      "interpretation": "UNCLEAR: no strong pattern"
-    },
-    {
-      "judge_model": "gpt4o",
-      "domain": "welfare_reasoning",
-      "sbs_correct": -0.75,
-      "sbs_adversarial": -0.5,
-      "n_correct": 8,
-      "n_adversarial": 4,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "all",
-      "sbs_correct": -0.5,
-      "sbs_adversarial": -0.3333,
-      "n_correct": 20,
-      "n_adversarial": 6,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "ethical_dilemma",
-      "sbs_correct": -0.6667,
-      "sbs_adversarial": null,
-      "n_correct": 6,
-      "n_adversarial": 0,
-      "interpretation": "INSUFFICIENT_DATA"
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "factual_qa",
-      "sbs_correct": -0.6667,
-      "sbs_adversarial": 0.3333,
-      "n_correct": 6,
-      "n_adversarial": 2,
-      "interpretation": "UNCLEAR: no strong pattern"
-    },
-    {
-      "judge_model": "llama70b",
-      "domain": "welfare_reasoning",
-      "sbs_correct": -0.25,
-      "sbs_adversarial": -0.5,
-      "n_correct": 8,
-      "n_adversarial": 4,
-      "interpretation": "SCRUTINY_DOMINANT: scrutiny dominates all conditions"
+    "gpt4o": {
+      "artificial": {
+        "by_stream": {},
+        "overall": {
+          "V-simple": 0,
+          "V-abstract": 0,
+          "V-natural-simple": 0,
+          "V-natural-abstract": 0,
+          "total": 0
+        },
+        "abstract_pref_rate": null
+      },
+      "natural": {
+        "by_stream": {},
+        "overall": {
+          "V-simple": 0,
+          "V-abstract": 0,
+          "V-natural-simple": 0,
+          "V-natural-abstract": 0,
+          "total": 0
+        },
+        "abstract_pref_rate": null
+      }
     }
-  ],
-  "n_scores": 78,
-  "judges": [
-    "glm5",
-    "gpt4o",
-    "llama70b"
-  ],
-  "domains": [
-    "ethical_dilemma",
-    "factual_qa",
-    "welfare_reasoning"
-  ]
+  },
+  "adversarial": {
+    "claude": {
+      "V-simple": {
+        "n": 10,
+        "detected": 1,
+        "edr": 0.1
+      },
+      "V-abstract": {
+        "n": 10,
+        "detected": 0,
+        "edr": 0.0
+      }
+    },
+    "llama70b": {
+      "V-simple": {
+        "n": 1,
+        "detected": 0,
+        "edr": 0.0
+      }
+    }
+  },
+  "mitigation": {
+    "format_agnostic": {
+      "baseline_sbs": 0.251,
+      "mitigation_sbs": 0.053,
+      "delta_sbs": -0.198,
+      "interpretation": "Mitigation reduced bias"
+    },
+    "style_norm": {
+      "baseline_sbs": 0.251,
+      "mitigation_sbs": 0.283,
+      "delta_sbs": 0.032,
+      "interpretation": "Mitigation increased bias"
+    },
+    "fixed_rubric": {
+      "baseline_sbs": 0.251,
+      "mitigation_sbs": 0.0,
+      "delta_sbs": -0.251,
+      "interpretation": "Mitigation reduced bias"
+    }
+  },
+  "cot_analysis": {
+    "total_effect_c": 0.0694,
+    "a_path_format_to_cot": 41.2607,
+    "b_path_cot_to_score": -0.006126,
+    "direct_effect_c_prime": 0.3221,
+    "indirect_effect_ab": -0.2528,
+    "proportion_mediated": -3.643,
+    "n_records": 526,
+    "interpretation": "CoT length mediates -364.3% of the format→score effect. Total effect: 0.069 score units per abstract variant. Format increases CoT length by 41.3 words on average."
+  }
 }

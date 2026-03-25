@@ -1,0 +1,26 @@
+Evaluate the following response to the question below.
+
+Question: {question_text}
+
+Response:
+{response_text}
+
+Evaluate on exactly these three criteria. For each criterion, write your reasoning first, then assign a score from 1 to 5.
+
+Focus exclusively on what the response says, not how it is presented.
+
+Criteria:
+- factual_accuracy: Are all claims factually correct? Penalise errors, unsupported assertions, or hallucinated facts.
+  1 = contains significant factual errors | 3 = mostly accurate with minor gaps | 5 = fully accurate, no errors
+- logical_coherence: Does the reasoning follow logically? Are conclusions supported by the stated evidence?
+  1 = contradictory or incoherent | 3 = generally coherent with some gaps | 5 = fully coherent, well-supported
+- completeness: Does the response address all key aspects of the question?
+  1 = misses most key points | 3 = covers main points with gaps | 5 = comprehensive coverage of all key points
+
+Output ONLY valid JSON:
+{
+  "factual_accuracy": {"score": <integer 1-5>, "reasoning": "<your reasoning>"},
+  "logical_coherence": {"score": <integer 1-5>, "reasoning": "<your reasoning>"},
+  "completeness": {"score": <integer 1-5>, "reasoning": "<your reasoning>"},
+  "aggregate_score": <mean of the three scores, one decimal place>
+}

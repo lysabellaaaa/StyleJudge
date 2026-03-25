@@ -42,7 +42,9 @@ class TokenBucketRateLimiter:
 
 
 # Pre-configured limiters (conservative; adjust in experiment.yaml)
-ANTHROPIC_LIMITER = TokenBucketRateLimiter(requests_per_minute=50, tokens_per_minute=40_000)
-OPENAI_LIMITER = TokenBucketRateLimiter(requests_per_minute=60, tokens_per_minute=60_000)
-GROQ_LIMITER = TokenBucketRateLimiter(requests_per_minute=30, tokens_per_minute=6_000)
-ZHIPU_LIMITER = TokenBucketRateLimiter(requests_per_minute=30, tokens_per_minute=20_000)
+ANTHROPIC_LIMITER = TokenBucketRateLimiter(requests_per_minute=50,  tokens_per_minute=40_000)
+OPENAI_LIMITER    = TokenBucketRateLimiter(requests_per_minute=60,  tokens_per_minute=60_000)
+GROQ_LIMITER      = TokenBucketRateLimiter(requests_per_minute=30,  tokens_per_minute=6_000)
+ZHIPU_LIMITER     = TokenBucketRateLimiter(requests_per_minute=30,  tokens_per_minute=20_000)
+DEEPSEEK_LIMITER  = TokenBucketRateLimiter(requests_per_minute=60,  tokens_per_minute=60_000)
+GEMINI_LIMITER    = TokenBucketRateLimiter(requests_per_minute=15,  tokens_per_minute=1_000_000)

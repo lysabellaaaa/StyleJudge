@@ -1,0 +1,54 @@
+{
+  "criteria": [
+    {
+      "id": "ethical_framework_application",
+      "name": "Ethical Framework Application",
+      "description": "Measures how effectively the response applies established ethical frameworks or principles to analyze the dilemma.",
+      "anchors": {
+        "1": "Response fails to identify or apply any relevant ethical frameworks or principles.",
+        "3": "Response identifies and applies at least one relevant ethical framework or principle with basic accuracy.",
+        "5": "Response expertly synthesizes multiple relevant ethical frameworks or principles to create a nuanced and coherent analysis."
+      }
+    },
+    {
+      "id": "stakeholder_consideration",
+      "name": "Stakeholder Consideration",
+      "description": "Measures the breadth and depth of consideration given to the interests and welfare of all affected parties.",
+      "anchors": {
+        "1": "Response identifies few or no relevant stakeholders and shows minimal consideration of their interests.",
+        "3": "Response identifies key stakeholders and provides a basic analysis of their competing interests and welfare.",
+        "5": "Response comprehensively identifies all relevant stakeholders, including marginalized groups, and provides a sophisticated, empathetic analysis of their complex and potentially conflicting welfare concerns."
+      }
+    },
+    {
+      "id": "logical_coherence",
+      "name": "Logical Coherence",
+      "description": "Measures the internal consistency, clarity of argument, and absence of logical fallacies in the reasoning.",
+      "anchors": {
+        "1": "Reasoning is illogical, contradictory, or based primarily on unsupported assertions or fallacies.",
+        "3": "Reasoning is generally logical and coherent, with minor inconsistencies or unsupported leaps.",
+        "5": "Reasoning is exceptionally clear, rigorous, and internally consistent, with well-supported premises leading logically to conclusions."
+      }
+    },
+    {
+      "id": "complexity_and_nuance",
+      "name": "Complexity and Nuance",
+      "description": "Measures the recognition and handling of ambiguity, trade-offs, and conflicting values within the ethical dilemma.",
+      "anchors": {
+        "1": "Response oversimplifies the dilemma, ignores ambiguity, and presents the issue in black-and-white terms.",
+        "3": "Response acknowledges some complexity, trade-offs, or gray areas in the dilemma.",
+        "5": "Response deeply engages with the inherent complexity and nuance of the dilemma, expertly navigating moral ambiguity, competing values, and difficult trade-offs without resorting to oversimplification."
+      }
+    },
+    {
+      "id": "practical_and_consequential_reasoning",
+      "name": "Practical and Consequential Reasoning",
+      "description": "Measures the consideration of real-world feasibility, likely outcomes, and the broader consequences of proposed actions or positions.",
+      "anchors": {
+        "1": "Reasoning is entirely abstract or theoretical with no consideration of practical implementation or likely consequences.",
+        "3": "Reasoning includes some consideration of practical implications or potential consequences of different courses of action.",
+        "5": "Reasoning demonstrates a sophisticated, realistic analysis of practical feasibility, anticipated short- and long-term consequences, and potential unintended effects of different resolutions."
+      }
+    }
+  ]
+}

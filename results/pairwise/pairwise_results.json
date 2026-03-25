@@ -1,0 +1,322 @@
+[
+  {
+    "question_id": "fq_001",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Neither response answers the actual question asked (about antibiotic resistance mechanisms), but both responses are equally off-topic and substantively equivalent in accuracy and completeness regarding the mRNA vaccine content they do cover.",
+    "a_strengths": "Response A is more concise and covers the same factual ground without unnecessary repetition or padding, making the information easier to absorb.",
+    "b_strengths": "Response B provides slightly more detail in some areas, such as specifying that mRNA remains in the cytoplasm and explicitly mentioning somatic cells, though this added detail does not compensate for its verbosity.",
+    "cot_trace": "```json\n{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Neither response answers the actual question asked (about antibiotic resistance mechanisms), but both responses are equally off-topic and substantively equivalent in accuracy and completeness regarding the mRNA vaccine content they do cover.\",\n  \"a_strengths\": \"Response A is more concise and covers the same factual ground without unnecessary repetition or padding, making the information easier to absorb.\",\n  \"b_strengths\": \"Response B provides slightly more detail in some areas, such as specifying that mRNA remains in the cytoplasm and explicitly mentioning somatic cells, though this added detail does not compensate for its verbosity.\"\n}\n```",
+    "evaluated_at": "2026-03-22T05:29:42Z"
+  },
+  {
+    "question_id": "fq_005",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B is more complete, covering consensus mechanisms (Proof of Work, Proof of Stake) and distributed ledger architecture as distinct structural elements, which are central to answering the question about how blockchain achieves decentralization.",
+    "a_strengths": "Response A is concise and accurate in what it covers, clearly explaining hash functions and asymmetric encryption without errors, and is accessible to a general audience.",
+    "b_strengths": "Response B addresses more of what the question asks by including consensus mechanisms and distributed architecture as explicit structural components, provides more precise technical detail (e.g., specific hash function properties like pre-image resistance and collision resistance), and better explains how the chain-linking of hashes makes tampering computationally infeasible.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B is more complete, covering consensus mechanisms (Proof of Work, Proof of Stake) and distributed ledger architecture as distinct structural elements, which are central to answering the question about how blockchain achieves decentralization.\",\n  \"a_strengths\": \"Response A is concise and accurate in what it covers, clearly explaining hash functions and asymmetric encryption without errors, and is accessible to a general audience.\",\n  \"b_strengths\": \"Response B addresses more of what the question asks by including consensus mechanisms and distributed architecture as explicit structural components, provides more precise technical detail (e.g., specific hash function properties like pre-image resistance and collision resistance), and better explains how the chain-linking of hashes makes tampering computationally infeasible.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:42Z"
+  },
+  {
+    "question_id": "fq_002",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-simple",
+    "preference_strength": "strong",
+    "primary_reason": "Neither response answers the actual question about the Soviet Union's collapse, but both answer a question about the Northern Lights instead; however, since the task asks to compare them on accuracy, reasoning, and completeness relative to each other, Response A and B are essentially equivalent in content, and the choice defaults to slight differences in clarity and conciseness where A is marginally cleaner.",
+    "a_strengths": "Response A presents the same factual content more concisely and clearly without unnecessary padding or redundant transitional phrases, making the information easier to follow.",
+    "b_strengths": "Response B includes a few marginally additional details, such as explicitly noting that no two auroral displays are identical due to continuously varying physical conditions, which adds a small amount of completeness.",
+    "cot_trace": "```json\n{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Neither response answers the actual question about the Soviet Union's collapse, but both answer a question about the Northern Lights instead; however, since the task asks to compare them on accuracy, reasoning, and completeness relative to each other, Response A and B are essentially equivalent in content, and the choice defaults to slight differences in clarity and conciseness where A is marginally cleaner.\",\n  \"a_strengths\": \"Response A presents the same factual content more concisely and clearly without unnecessary padding or redundant transitional phrases, making the information easier to follow.\",\n  \"b_strengths\": \"Response B includes a few marginally additional details, such as explicitly noting that no two auroral displays are identical due to continuously varying physical conditions, which adds a small amount of completeness.\"\n}\n```",
+    "evaluated_at": "2026-03-22T05:29:43Z"
+  },
+  {
+    "question_id": "fq_003",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-simple",
+    "preference_strength": "strong",
+    "primary_reason": "Neither response answers the actual question about hyperinflation, but Response B is shorter and wastes less of the reader's time with irrelevant content about compound interest.",
+    "a_strengths": "Response A provides slightly more detail on the compound interest topic it incorrectly addresses, including more explicit discussion of compounding frequency as a variable.",
+    "b_strengths": "Response B is more concise in its off-topic answer, covering the same factual ground without unnecessary verbosity, making it less misleading in scope.",
+    "cot_trace": "```json\n{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Neither response answers the actual question about hyperinflation, but Response B is shorter and wastes less of the reader's time with irrelevant content about compound interest.\",\n  \"a_strengths\": \"Response A provides slightly more detail on the compound interest topic it incorrectly addresses, including more explicit discussion of compounding frequency as a variable.\",\n  \"b_strengths\": \"Response B is more concise in its off-topic answer, covering the same factual ground without unnecessary verbosity, making it less misleading in scope.\"\n}\n```",
+    "evaluated_at": "2026-03-22T05:29:45Z"
+  },
+  {
+    "question_id": "nf_002",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-simple",
+    "preference_strength": "strong",
+    "primary_reason": "Response A, though truncated, at least begins to address the actual question, while Response B is largely meta-commentary about an incomplete response and provides no substantive policy recommendations.",
+    "a_strengths": "Response A begins to directly address the policy question with a concrete recommendation, even if it was cut off before completion.",
+    "b_strengths": "Response B has more elaborate structure and attempts to provide logical framing around ecological and democratic considerations, but ultimately fails to deliver any actual policy content.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response A, though truncated, at least begins to address the actual question, while Response B is largely meta-commentary about an incomplete response and provides no substantive policy recommendations.\",\n  \"a_strengths\": \"Response A begins to directly address the policy question with a concrete recommendation, even if it was cut off before completion.\",\n  \"b_strengths\": \"Response B has more elaborate structure and attempts to provide logical framing around ecological and democratic considerations, but ultimately fails to deliver any actual policy content.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:47Z"
+  },
+  {
+    "question_id": "fq_010",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "strong",
+    "primary_reason": "Response A is substantially more complete, covering allostatic load, the specific mechanisms of glucocorticoid receptor resistance, and multiple affected organ systems, while Response B only superficially addresses the question and omits discussion of which organ systems are most affected.",
+    "a_strengths": "Response A provides more detailed mechanistic explanations, including the distinction between HPA axis and sympathetic nervous system contributions, the concept of allostatic load with its theoretical grounding, the paradoxical nature of glucocorticoid receptor resistance, and mentions multiple organ systems (cardiovascular, metabolic, immunological). It also addresses the acute-to-chronic transition as a critical pathological juncture.",
+    "b_strengths": "Response B is more concise and accessible, presenting the core concepts clearly without unnecessary repetition, which may aid comprehension for general audiences.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"strong\",\n  \"primary_reason\": \"Response A is substantially more complete, covering allostatic load, the specific mechanisms of glucocorticoid receptor resistance, and multiple affected organ systems, while Response B only superficially addresses the question and omits discussion of which organ systems are most affected.\",\n  \"a_strengths\": \"Response A provides more detailed mechanistic explanations, including the distinction between HPA axis and sympathetic nervous system contributions, the concept of allostatic load with its theoretical grounding, the paradoxical nature of glucocorticoid receptor resistance, and mentions multiple organ systems (cardiovascular, metabolic, immunological). It also addresses the acute-to-chronic transition as a critical pathological juncture.\",\n  \"b_strengths\": \"Response B is more concise and accessible, presenting the core concepts clearly without unnecessary repetition, which may aid comprehension for general audiences.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:47Z"
+  },
+  {
+    "question_id": "fq_009",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers the same core content as A but with marginally greater completeness, explicitly addressing the asymmetric effects on both exporters and importers under both depreciation and appreciation scenarios, and noting the role of foreign inputs for domestic industries.",
+    "a_strengths": "Response A is concise and accurate, covering all major determinants (interest rates, inflation, economic health, political stability, central bank intervention) and the trade effects of both depreciation and appreciation clearly and correctly.",
+    "b_strengths": "Response B provides slightly more complete analysis by explicitly distinguishing effects on import-dependent industries and consumers separately from export sectors, and by noting that appreciation benefits industries reliant on foreign inputs, adding a layer of nuance absent in A.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers the same core content as A but with marginally greater completeness, explicitly addressing the asymmetric effects on both exporters and importers under both depreciation and appreciation scenarios, and noting the role of foreign inputs for domestic industries.\",\n  \"a_strengths\": \"Response A is concise and accurate, covering all major determinants (interest rates, inflation, economic health, political stability, central bank intervention) and the trade effects of both depreciation and appreciation clearly and correctly.\",\n  \"b_strengths\": \"Response B provides slightly more complete analysis by explicitly distinguishing effects on import-dependent industries and consumers separately from export sectors, and by noting that appreciation benefits industries reliant on foreign inputs, adding a layer of nuance absent in A.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:47Z"
+  },
+  {
+    "question_id": "fq_004",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete coverage, including additional detail on protein subunit vaccines, the specific mechanism of lipid nanoparticle uptake, and a more explicit comparative analysis of the paradigm shift involved.",
+    "a_strengths": "Response A covers more vaccine modalities (including protein subunit vaccines), elaborates on the lipid nanoparticle mechanism more explicitly, and provides a more thorough comparative analysis of the implications across development speed, safety, and logistics.",
+    "b_strengths": "Response B conveys the same core factual content accurately and concisely without sacrificing logical coherence, making it easier to read and nearly as complete for the key points the question asks about.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete coverage, including additional detail on protein subunit vaccines, the specific mechanism of lipid nanoparticle uptake, and a more explicit comparative analysis of the paradigm shift involved.\",\n  \"a_strengths\": \"Response A covers more vaccine modalities (including protein subunit vaccines), elaborates on the lipid nanoparticle mechanism more explicitly, and provides a more thorough comparative analysis of the implications across development speed, safety, and logistics.\",\n  \"b_strengths\": \"Response B conveys the same core factual content accurately and concisely without sacrificing logical coherence, making it easier to read and nearly as complete for the key points the question asks about.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:48Z"
+  },
+  {
+    "question_id": "fq_007",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more detailed reasoning and elaboration on each mechanism, such as explaining why volatiles from subducting slabs cause partial melting and why continental plates don't readily subduct, offering slightly more complete causal chains.",
+    "a_strengths": "Response A elaborates more fully on the causal mechanisms, for example explaining that subducting slabs release volatiles that induce partial melting in the mantle wedge, and that continental plates resist subduction due to equivalent densities, providing more complete logical chains for each process.",
+    "b_strengths": "Response B conveys the same core factual content accurately and concisely without sacrificing correctness, demonstrating that all essential information can be communicated efficiently; it is equally accurate on all major points.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more detailed reasoning and elaboration on each mechanism, such as explaining why volatiles from subducting slabs cause partial melting and why continental plates don't readily subduct, offering slightly more complete causal chains.\",\n  \"a_strengths\": \"Response A elaborates more fully on the causal mechanisms, for example explaining that subducting slabs release volatiles that induce partial melting in the mantle wedge, and that continental plates resist subduction due to equivalent densities, providing more complete logical chains for each process.\",\n  \"b_strengths\": \"Response B conveys the same core factual content accurately and concisely without sacrificing correctness, demonstrating that all essential information can be communicated efficiently; it is equally accurate on all major points.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:51Z"
+  },
+  {
+    "question_id": "fq_008",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B covers all the same factors as Response A but provides marginally more detailed analysis of each causal mechanism and their interactions, particularly in explaining how factors like the Enclosure Movement functioned as a dual catalyst.",
+    "a_strengths": "Response A presents the same core causal factors in a concise, well-integrated narrative that clearly shows interconnections between factors without unnecessary repetition, making it highly readable and logically coherent.",
+    "b_strengths": "Response B provides slightly more explicit analysis of how individual factors operated mechanically (e.g., the dual role of the Agricultural Revolution in both enabling population growth and supplying labor), and its synthesis section more explicitly addresses the synergistic interaction of all factors, reinforcing the argument that no single cause was sufficient.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B covers all the same factors as Response A but provides marginally more detailed analysis of each causal mechanism and their interactions, particularly in explaining how factors like the Enclosure Movement functioned as a dual catalyst.\",\n  \"a_strengths\": \"Response A presents the same core causal factors in a concise, well-integrated narrative that clearly shows interconnections between factors without unnecessary repetition, making it highly readable and logically coherent.\",\n  \"b_strengths\": \"Response B provides slightly more explicit analysis of how individual factors operated mechanically (e.g., the dual role of the Agricultural Revolution in both enabling population growth and supplying labor), and its synthesis section more explicitly addresses the synergistic interaction of all factors, reinforcing the argument that no single cause was sufficient.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:52Z"
+  },
+  {
+    "question_id": "nf_001",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Both responses contain essentially the same reasoning and conclusions, but Response B delivers this content more concisely without sacrificing accuracy or completeness, while Response A's elaborate structure adds length without adding substantive analytical depth.",
+    "a_strengths": "Response A explicitly names the precautionary principle, articulates the conditional structure of the decision framework more clearly, and separately distinguishes physiological from psychological welfare dimensions in a way that makes the logical progression slightly more transparent.",
+    "b_strengths": "Response B conveys the same factual claims, logical reasoning, and conclusions as Response A with equal accuracy and completeness, but without the redundant framing (claim/reasoning/conclusion repeated for each section) that inflates length without adding insight, making the actual reasoning easier to evaluate on its merits.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Both responses contain essentially the same reasoning and conclusions, but Response B delivers this content more concisely without sacrificing accuracy or completeness, while Response A's elaborate structure adds length without adding substantive analytical depth.\",\n  \"a_strengths\": \"Response A explicitly names the precautionary principle, articulates the conditional structure of the decision framework more clearly, and separately distinguishes physiological from psychological welfare dimensions in a way that makes the logical progression slightly more transparent.\",\n  \"b_strengths\": \"Response B conveys the same factual claims, logical reasoning, and conclusions as Response A with equal accuracy and completeness, but without the redundant framing (claim/reasoning/conclusion repeated for each section) that inflates length without adding insight, making the actual reasoning easier to evaluate on its merits.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:54Z"
+  },
+  {
+    "question_id": "nf_003",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete logical analysis by explicitly addressing each option (status quo, sanctuary, and the proposed solution) with structured reasoning that traces through the implications of each choice more thoroughly.",
+    "a_strengths": "Response A more systematically evaluates all three options presented in the question, explicitly ruling out the status quo and sanctuary with detailed reasoning before proposing the alternative, and it addresses the donor relationship more explicitly as a consideration.",
+    "b_strengths": "Response B conveys essentially the same logical content and recommendations more concisely without sacrificing accuracy, making it easier to read and arguably more practical as a decision-making document; it covers all the key points without redundancy.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete logical analysis by explicitly addressing each option (status quo, sanctuary, and the proposed solution) with structured reasoning that traces through the implications of each choice more thoroughly.\",\n  \"a_strengths\": \"Response A more systematically evaluates all three options presented in the question, explicitly ruling out the status quo and sanctuary with detailed reasoning before proposing the alternative, and it addresses the donor relationship more explicitly as a consideration.\",\n  \"b_strengths\": \"Response B conveys essentially the same logical content and recommendations more concisely without sacrificing accuracy, making it easier to read and arguably more practical as a decision-making document; it covers all the key points without redundancy.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:56Z"
+  },
+  {
+    "question_id": "nf_004",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Both responses are substantively equivalent in accuracy, reasoning, and completeness, but Response A delivers the same analysis more efficiently without the verbose pseudo-logical scaffolding that adds length without adding insight.",
+    "a_strengths": "Response A covers all the same key points—market viability, alternative channels, worker impacts, land loss, phased transition, grants—concisely and with clear logical flow, making it easier to extract the actual reasoning.",
+    "b_strengths": "Response B is marginally more explicit in separating distinct analytical steps (market assessment, externalities, strategic recommendations) and slightly more thorough in articulating why each factor matters, though this is largely offset by the repetitive claim-reasoning-conclusion structure.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Both responses are substantively equivalent in accuracy, reasoning, and completeness, but Response A delivers the same analysis more efficiently without the verbose pseudo-logical scaffolding that adds length without adding insight.\",\n  \"a_strengths\": \"Response A covers all the same key points—market viability, alternative channels, worker impacts, land loss, phased transition, grants—concisely and with clear logical flow, making it easier to extract the actual reasoning.\",\n  \"b_strengths\": \"Response B is marginally more explicit in separating distinct analytical steps (market assessment, externalities, strategic recommendations) and slightly more thorough in articulating why each factor matters, though this is largely offset by the repetitive claim-reasoning-conclusion structure.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:57Z"
+  },
+  {
+    "question_id": "fq_006",
+    "stream": "factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides more complete coverage of the topic with slightly more detailed explanations of each fallacy type, including clearer articulation of why each fallacy fails logically.",
+    "a_strengths": "Response A offers more thorough explanations of each fallacy, explicitly defines key terms like 'invalid' and 'unsound,' provides a more detailed breakdown of why Affirming the Consequent fails, and gives fuller treatment to each informal fallacy with explicit logical analysis of why they undermine argumentation.",
+    "b_strengths": "Response B is more concise and accessible, covering the same core content without unnecessary repetition, and its plain prose may actually communicate the ideas more efficiently without the formulaic transitional phrases that add length without adding substance in Response A.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides more complete coverage of the topic with slightly more detailed explanations of each fallacy type, including clearer articulation of why each fallacy fails logically.\",\n  \"a_strengths\": \"Response A offers more thorough explanations of each fallacy, explicitly defines key terms like 'invalid' and 'unsound,' provides a more detailed breakdown of why Affirming the Consequent fails, and gives fuller treatment to each informal fallacy with explicit logical analysis of why they undermine argumentation.\",\n  \"b_strengths\": \"Response B is more concise and accessible, covering the same core content without unnecessary repetition, and its plain prose may actually communicate the ideas more efficiently without the formulaic transitional phrases that add length without adding substance in Response A.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:57Z"
+  },
+  {
+    "question_id": "nf_005",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete reasoning by explicitly articulating the logical chain connecting each criterion to the overarching framework, including the gatekeeping role of veterinary assessment and the utility-optimization logic for sanctuary allocation.",
+    "a_strengths": "Response A more explicitly develops the logical structure connecting each consideration, articulates why veterinary assessment serves as a 'primary gatekeeping mechanism,' and frames the three-year timeline as an opportunity rather than merely a constraint, adding a nuanced reframing that strengthens the reasoning.",
+    "b_strengths": "Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis is sound without requiring extensive elaboration, and is equally accurate and complete on all major considerations.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete reasoning by explicitly articulating the logical chain connecting each criterion to the overarching framework, including the gatekeeping role of veterinary assessment and the utility-optimization logic for sanctuary allocation.\",\n  \"a_strengths\": \"Response A more explicitly develops the logical structure connecting each consideration, articulates why veterinary assessment serves as a 'primary gatekeeping mechanism,' and frames the three-year timeline as an opportunity rather than merely a constraint, adding a nuanced reframing that strengthens the reasoning.\",\n  \"b_strengths\": \"Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis is sound without requiring extensive elaboration, and is equally accurate and complete on all major considerations.\"\n}",
+    "evaluated_at": "2026-03-22T05:29:59Z"
+  },
+  {
+    "question_id": "nf_008",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete reasoning by explicitly articulating the logical structure connecting principles to conclusions, particularly around why procedural requirements matter and how mitigation addresses equitable development obligations.",
+    "a_strengths": "Response A more thoroughly develops the logical chain between principles and recommendations, explicitly addresses why each step is justified, and provides slightly more nuanced treatment of the tension between the two vulnerable populations and how mitigation strategies resolve that tension.",
+    "b_strengths": "Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis can be communicated efficiently without loss of key logical steps, and is arguably easier to evaluate as a decision-making guide.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete reasoning by explicitly articulating the logical structure connecting principles to conclusions, particularly around why procedural requirements matter and how mitigation addresses equitable development obligations.\",\n  \"a_strengths\": \"Response A more thoroughly develops the logical chain between principles and recommendations, explicitly addresses why each step is justified, and provides slightly more nuanced treatment of the tension between the two vulnerable populations and how mitigation strategies resolve that tension.\",\n  \"b_strengths\": \"Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis can be communicated efficiently without loss of key logical steps, and is arguably easier to evaluate as a decision-making guide.\"\n}",
+    "evaluated_at": "2026-03-22T05:30:02Z"
+  },
+  {
+    "question_id": "nf_007",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-simple",
+    "preference_strength": "slight",
+    "primary_reason": "Both responses contain essentially identical reasoning and conclusions, but Response A is more concise without sacrificing accuracy, completeness, or logical quality, while Response B's additional length adds no substantive analytical value.",
+    "a_strengths": "Response A delivers the same core reasoning, ethical analysis, and recommended strategy in a more efficient form, covering all key considerations (journalistic duty, humanitarian cost, ultimatum strategy, contingency for refusal) without redundancy.",
+    "b_strengths": "Response B explicitly labels and separates the alternative approaches for comparison, making the logical structure slightly more transparent, and it articulates the reasoning for each step in a more granular way that could aid clarity for some readers.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Both responses contain essentially identical reasoning and conclusions, but Response A is more concise without sacrificing accuracy, completeness, or logical quality, while Response B's additional length adds no substantive analytical value.\",\n  \"a_strengths\": \"Response A delivers the same core reasoning, ethical analysis, and recommended strategy in a more efficient form, covering all key considerations (journalistic duty, humanitarian cost, ultimatum strategy, contingency for refusal) without redundancy.\",\n  \"b_strengths\": \"Response B explicitly labels and separates the alternative approaches for comparison, making the logical structure slightly more transparent, and it articulates the reasoning for each step in a more granular way that could aid clarity for some readers.\"\n}",
+    "evaluated_at": "2026-03-22T05:30:03Z"
+  },
+  {
+    "question_id": "nf_009",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete logical development of each framework component, explicitly articulating the inferential steps between premises and conclusions rather than asserting them.",
+    "a_strengths": "Response A more explicitly walks through the logical chain within each section, making the reasoning more transparent and easier to evaluate; it also more clearly distinguishes between the different types of costs (reputational, trust-based, moral authority) associated with acceptance.",
+    "b_strengths": "Response B is more concise and avoids redundancy, presenting the same core framework without the repetitive transitional language ('First... Second... Therefore...') that makes Response A somewhat formulaic; it is easier to read and the reasoning is still sufficiently clear.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete logical development of each framework component, explicitly articulating the inferential steps between premises and conclusions rather than asserting them.\",\n  \"a_strengths\": \"Response A more explicitly walks through the logical chain within each section, making the reasoning more transparent and easier to evaluate; it also more clearly distinguishes between the different types of costs (reputational, trust-based, moral authority) associated with acceptance.\",\n  \"b_strengths\": \"Response B is more concise and avoids redundancy, presenting the same core framework without the repetitive transitional language ('First... Second... Therefore...') that makes Response A somewhat formulaic; it is easier to read and the reasoning is still sufficiently clear.\"\n}",
+    "evaluated_at": "2026-03-22T05:30:04Z"
+  },
+  {
+    "question_id": "nf_006",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-simple",
+      "B": "V-abstract"
+    },
+    "preferred_label": "B",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response B provides more complete logical analysis by explicitly articulating the conditions under which proceeding becomes ethically permissible and more thoroughly explaining the waiver of consent mechanism and its criteria.",
+    "a_strengths": "Response A is more concise and communicates the core ethical tension clearly without redundancy, making the key points accessible and well-integrated rather than fragmented across sections.",
+    "b_strengths": "Response B more thoroughly develops the competing ethical principles, provides a more detailed explanation of the waiver of consent pathway including its specific conditions (minimal risk, significant public benefit), and more explicitly addresses the logical chain from ambiguity to resolution, resulting in a more complete treatment of the question's complexity.",
+    "cot_trace": "{\n  \"preferred\": \"B\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response B provides more complete logical analysis by explicitly articulating the conditions under which proceeding becomes ethically permissible and more thoroughly explaining the waiver of consent mechanism and its criteria.\",\n  \"a_strengths\": \"Response A is more concise and communicates the core ethical tension clearly without redundancy, making the key points accessible and well-integrated rather than fragmented across sections.\",\n  \"b_strengths\": \"Response B more thoroughly develops the competing ethical principles, provides a more detailed explanation of the waiver of consent pathway including its specific conditions (minimal risk, significant public benefit), and more explicitly addresses the logical chain from ambiguity to resolution, resulting in a more complete treatment of the question's complexity.\"\n}",
+    "evaluated_at": "2026-03-22T05:30:06Z"
+  },
+  {
+    "question_id": "nf_010",
+    "stream": "non_factual",
+    "assignment": {
+      "A": "V-abstract",
+      "B": "V-simple"
+    },
+    "preferred_label": "A",
+    "preferred_variant": "V-abstract",
+    "preference_strength": "slight",
+    "primary_reason": "Response A provides marginally more complete reasoning by explicitly articulating the hierarchical nature of ethical obligations and more thoroughly explaining the rationale behind each recommended step.",
+    "a_strengths": "Response A more explicitly frames the ethical hierarchy (preservation of life over self-determination), provides clearer logical connectives between premises and conclusions, and more thoroughly explains why each recommended action is ethically justified rather than simply listing it.",
+    "b_strengths": "Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis can be communicated efficiently without loss of accuracy or logical coherence.",
+    "cot_trace": "{\n  \"preferred\": \"A\",\n  \"preference_strength\": \"slight\",\n  \"primary_reason\": \"Response A provides marginally more complete reasoning by explicitly articulating the hierarchical nature of ethical obligations and more thoroughly explaining the rationale behind each recommended step.\",\n  \"a_strengths\": \"Response A more explicitly frames the ethical hierarchy (preservation of life over self-determination), provides clearer logical connectives between premises and conclusions, and more thoroughly explains why each recommended action is ethically justified rather than simply listing it.\",\n  \"b_strengths\": \"Response B conveys essentially the same substantive content and reasoning in a more concise form, demonstrating that the core analysis can be communicated efficiently without loss of accuracy or logical coherence.\"\n}",
+    "evaluated_at": "2026-03-22T05:30:07Z"
+  }
+]

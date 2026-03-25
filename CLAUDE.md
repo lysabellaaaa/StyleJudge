@@ -286,3 +286,7 @@ Rate limits (conservative):
 - OpenAI: 60 rpm, 60k tpm
 - Groq: 30 rpm, 6k tpm (free tier; Llama 3.3 70B)
 - Zhipu: 30 rpm, 20k tpm
+
+
+Always commit with:
+  git -c user.name="lysabellaaaa" -c user.email="my.isabella.luong@gmail.com" commit ...

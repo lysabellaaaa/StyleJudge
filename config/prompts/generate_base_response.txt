@@ -1,0 +1,5 @@
+Answer the following question thoroughly and accurately. Cover all key points. Write between 150 and 250 words.
+
+Question: {question_text}
+
+Answer:
